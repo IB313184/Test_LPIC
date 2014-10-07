@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\test_lpic2\app\build\intermediates\pre-dexed\release\support-v4-19.1.0-7672f1b5cc7e8e8b29689406d58771d5e38138df.jar"
+        jar="C:\Android-Sdk\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\test_lpic2\app\build\intermediates\pre-dexed\release\classes-d18f2853b375361bb9a6a5a2be6a52f0f5b1ae6a.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\test_lpic2\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.3.23\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7676c0cb230efa6ac41c47867d372ed5913029d4"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\test_lpic2\app\build\intermediates\pre-dexed\release\classes-fc40ce0bf491c431de8b0eeb03884079dc50f5d0.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\test_lpic2\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+
+</pre-dex-items>

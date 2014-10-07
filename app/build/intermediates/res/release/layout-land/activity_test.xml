@@ -1,0 +1,114 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:text="Test preparacion para la certificacion"
+        android:textSize="19dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lpic1"
+        android:id="@+id/textView2"
+        android:textSize="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+            android:id="@+id/tituloJuego"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView
+            android:id="@+id/preguntaActual"
+            android:layout_width="320dp"
+            android:layout_height="170dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tituloJuego"
+            android:layout_marginTop="130dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:onClick="siguientePregunta"
+            android:width="80dp" />
+
+    <Button
+        android:id="@+id/siguiente"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="180dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="18dp" android:text="@string/botonJuego"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:width="180dp"
+        android:layout_alignTop="@+id/siguiente"
+        android:layout_alignParentLeft="true" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" android:layout_alignRight="@+id/zoomControls">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/opcion1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="315dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/opcion2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/opcion3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/opcion4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+     </RadioGroup>
+
+
+    <ZoomControls
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zoomControls"
+            android:layout_gravity="right"
+            android:orientation="vertical" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout><!-- From: file:/C:/Download/AndroidDevelopingFlashlightApplication/test_lpic2/app/src/main/res/layout-land/activity_test.xml -->

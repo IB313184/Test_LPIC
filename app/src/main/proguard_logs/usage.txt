@@ -1,0 +1,26 @@
+nicolas.alarcon.testlpic.BuildConfig
+nicolas.alarcon.testlpic.DbHelper:
+    private static final java.lang.String DB_NAME
+    private static final int DB_SCHEME_VERSION
+    private android.database.sqlite.SQLiteDatabase BaseDeDatos
+    android.content.Context a
+    70:72:public void guardarPreguntas(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int,int)
+nicolas.alarcon.testlpic.PideNombre:
+    android.widget.TextView ok
+    android.widget.TextView error
+    android.widget.TextView tema
+nicolas.alarcon.testlpic.PreguntasLpic:
+    private android.widget.TextView tx3
+    private android.widget.TextView tx4
+    private android.widget.TextView tx5
+nicolas.alarcon.testlpic.R
+nicolas.alarcon.testlpic.R$array
+nicolas.alarcon.testlpic.R$attr
+nicolas.alarcon.testlpic.R$drawable
+nicolas.alarcon.testlpic.R$id
+nicolas.alarcon.testlpic.R$layout
+nicolas.alarcon.testlpic.R$menu
+nicolas.alarcon.testlpic.R$string
+nicolas.alarcon.testlpic.R$style
+nicolas.alarcon.testlpic.R$xml
+nicolas.alarcon.testlpic.TestLpic

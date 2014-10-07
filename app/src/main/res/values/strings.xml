@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">Test LPIC</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_test_lpic">Test LPIC</string>
+    <string name="menu">About</string>
+    <string name="TestLpic">Test LPIC-1</string>
+    <string name="lpic1">LPIC-1</string>
+    <string name="lpic2">LPIC-2</string>
+    <string name="lpic3">Empezar</string>
+    <string name="config">Configuration</string>
+    <string name="acercade">About</string>
+    <string name="ranking">Ranking</string>
+    <string name="exit">Exit</string>
+    <string name="textAcercaDe">Versión 2.0
+
+Esta aplicación esta realizada con el fin de ir incrementando todo lo necesario para dejarla como ayuda para la Certificación LPIC-1 , llegando a sen una buena herramienta de aprendizaje.
+
+Llegando a un buen fin se incrementaría asta el LPIC-2 y LPIC-3, en la misma aplicación o en otras de similar nombre.
+
+Gracia
+
+correo: secretario.yamakashy.@gmail.com
+Donaciones ebay: ib313184</string>
+    <string name="textPuntuaciones">Ranking</string>
+    <string name="textSinPuntuaciones">No Scores</string>
+    <string name="textConfiguration">On that want to ask you.</string>
+    <string name="textTitleConfiguration">Type questions.</string>
+    <string name="textAnimesAndManga">Animes And Manga</string>
+    <string name="textGames">Games</string>
+    <string name="textTVShows">Boot</string>
+    <string name="preguntaTematica10">What couple were the protagonists in Resident Evil 5?</string>
+    <string name="botonJuego">Next</string>
+    <string name="textPideNombre">Enter your name to be inserted into the list of scores. Just leave the top 10.</string>
+    <string name="titlePideNombre">Name</string>
+    <string name="aceptar">Accept</string>
+
+</resources>

@@ -1,0 +1,84 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="18dp"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true" android:visibility="invisible"/>
+
+<Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="lanzarRapidText"
+        android:text="@string/config"
+        android:layout_alignTop="@+id/puntuaciones"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/textView3" />
+
+<Button android:id="@+id/puntuaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="lanzarPuntuaciones"
+        android:text="@string/ranking"
+    android:layout_above="@+id/button"
+    android:layout_alignParentRight="true"
+    android:layout_toRightOf="@+id/textView3" />
+
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:id="@+id/button"
+    android:onClick="button2print"
+    android:layout_alignTop="@+id/button2"
+    android:layout_alignParentRight="true"
+    android:layout_toRightOf="@+id/play" />
+
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+    android:onClick="button3print"
+        android:id="@+id/button2"
+    android:layout_above="@+id/adView"
+    android:layout_alignParentLeft="true"
+    android:layout_toLeftOf="@+id/button" />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lpic3"
+            android:id="@+id/button5"
+            android:onClick="llpic3print"
+        android:layout_above="@+id/play"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/logo2"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5901787361565688/7304730654"
+        android:gravity="center" />
+
+
+</RelativeLayout>

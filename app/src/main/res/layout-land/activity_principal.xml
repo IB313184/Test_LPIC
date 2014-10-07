@@ -1,0 +1,82 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView3"
+        android:textSize="18dp"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true" />
+
+<Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="lanzarRapidText"
+        android:text="@string/config"
+        android:layout_alignTop="@+id/puntuaciones"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/textView3" />
+
+<Button android:id="@+id/puntuaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="lanzarPuntuaciones"
+        android:text="@string/ranking"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textView3" />
+
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:id="@+id/button"
+        android:layout_below="@+id/play"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/puntuaciones"
+        android:onClick="button2print"/>
+
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:layout_below="@+id/play"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/play"
+        android:onClick="button3print"
+        android:id="@+id/button2" />
+<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lpic1"
+            android:id="@+id/button3"
+            android:layout_above="@+id/button5" android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/button4"
+            android:onClick="llpic1print" />
+<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lpic2"
+            android:id="@+id/button4"
+            android:layout_above="@+id/button5" android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/textView3"
+            android:onClick="llpic2print" />
+<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lpic3"
+            android:id="@+id/button5"
+            android:layout_above="@+id/play" android:layout_alignRight="@+id/puntuaciones"
+            android:layout_marginBottom="24dp" android:layout_alignParentLeft="true"
+            android:onClick="llpic3print" />
+
+</RelativeLayout>

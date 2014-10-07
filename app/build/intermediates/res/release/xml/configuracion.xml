@@ -1,0 +1,12 @@
+<?xml version="2.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:key="Configuracion_principal" >
+  <ListPreference
+    android:key="tematica"
+    android:title="@string/textTitleConfiguration"
+    android:summary="@string/textConfiguration"
+    android:entries="@array/tiposPreguntas"
+    android:entryValues="@array/tiposPreguntasValores"
+    android:defaultValue="1"/>
+</PreferenceScreen><!-- From: file:/C:/Download/AndroidDevelopingFlashlightApplication/test_lpic2/app/src/main/res/xml/configuracion.xml -->

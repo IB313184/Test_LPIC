@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="app_name">Version 2.0</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_test_lpic">Test LPIC</string>
+    <string name="menu">About</string>
+    <string name="TestLpic">Test LPIC-1</string>
+    <string name="lpic1">LPIC-1</string>
+    <string name="lpic2">LPIC-2</string>
+    <string name="lpic3">LPIC-3</string>
+    <string name="config">Configuration</string>
+    <string name="acercade">About</string>
+    <string name="ranking">Ranking</string>
+    <string name="exit">Exit</string>
+    <string name="textAcercaDe">Versión 2.0
+
+Esta aplicación esta realizada con el fin de ir incrementando todo lo necesario para dejarla como ayuda para la Certificación LPIC-1 , llegando a sen una buena herramienta de aprendizaje.
+
+Llegando a un buen fin se incrementaría asta el LPIC-2 y LPIC-3, en la misma aplicación o en otras de similar nombre.
+
+Gracia
+
+correo: secretario.yamakashy.@gmail.com
+Donaciones ebay: ib313184</string>
+    <string name="textPuntuaciones">Puntuaciones</string><string name="textSinPuntuaciones">No hay puntuaciones</string>
+    <string name="textConfiguration">Sobre que quieres que te pregunte.</string>
+    <string name="textTitleConfiguration">Tipo de preguntas.</string>
+    <string name="textTVShows">Ambas</string>
+    <string name="textAnimesAndManga">Animes y Manga</string>
+    <string name="textGames">Videojuegos</string>
+    <string name="preguntaTematica10">¿Cuantas particiones primarias puede tener un disco PATA?</string>
+    <string name="preguntaTematica11">¿que se puede hacer con el commando "cp"?</string>
+    <string name="preguntaTematica12">¿Cuantas particiones Extendidas puede tener un disco PATA?</string>
+    <string name="preguntaTematica13">¿Con el commando "rm" se puede realizar con un archivo?</string>
+    <string name="preguntaTematica14">¿mkdir que crea?</string>
+    <string name="preguntaTematica15">¿El Grub o LILO inicia antes que la bios?</string>
+    <string name="preguntaTematica16">¿Init arranca antes que bios?</string>
+    <string name="preguntaTematica17">¿rmdir que borra?</string>
+    <string name="preguntaTematica18">¿(ls -la) muestra?</string>
+    <string name="preguntaTematica19">¿pwd que muestra?</string>
+    <string name="preguntaTematica1Respuesta81">Angel</string>
+    <string name="preguntaTematica1Respuesta82">Demonio</string>
+    <string name="preguntaTematica1Respuesta83">Medusa</string>
+    <string name="preguntaTematica1Respuesta84">Rana</string>
+    <string name="preguntaTematica20">Gohan es hijo de</string>
+    <string name="preguntaTematica21">Acaba la lista: Seiya, Shiryu, Hyoga, Shun</string>
+    <string name="preguntaTematica22">¿Quién es el protagonista de la serie D. Gray Man?</string>
+    <string name="preguntaTematica23">¿Qué busca Luffy?</string>
+    <string name="preguntaTematica24">Rukia es un</string>
+    <string name="preguntaTematica25">Kakashi lee el manga</string>
+    <string name="preguntaTematica26">¿Cual no es una técnica de la serie naruto?</string>
+    <string name="preguntaTematica27">Kira mataba con</string>
+    <string name="preguntaTematica28">¿Quién es el protagonista de Sword Art Online?</string>
+    <string name="preguntaTematica29">¿Quién es un Dragon Slayer?</string>
+    <string name="preguntaTematica2Respuesta31">Las bolas de dragon</string>
+    <string name="preguntaTematica2Respuesta32">Anillos</string>
+    <string name="preguntaTematica2Respuesta51">El ninja que me clavo su katana.</string>
+    <string name="preguntaTematica2Respuesta71">una libreta</string>
+    <string name="preguntaTematica2Respuesta72">el pensamiento</string>
+    <string name="preguntaTematica2Respuesta73">un ordenador</string>
+    <string name="preguntaTematica2Respuesta74">la mirada</string>
+    <string name="botonJuego">Siguiente</string>
+    <string name="textPideNombre">Introduzca su nombre para insertarlo en la lista de las puntuaciones. Solo salen los 10 primeros.</string>
+    <string name="titlePideNombre">Nombre</string>
+    <string name="aceptar">Aceptar</string>
+
+</resources>

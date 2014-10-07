@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="19.1.0" >
+        <source path="C:\Download\AndroidDevelopingFlashlightApplication\test_lpic2\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Download\AndroidDevelopingFlashlightApplication\test_lpic2\app\src\main\assets" >
+            <file
+                name="BaseDeDatos.sqlite"
+                path="C:\Download\AndroidDevelopingFlashlightApplication\test_lpic2\app\src\main\assets\BaseDeDatos.sqlite" />
+        </source>
+    </dataSet>
+    <dataSet config="release" >
+        <source path="C:\Download\AndroidDevelopingFlashlightApplication\test_lpic2\app\src\release\assets" />
+    </dataSet>
+
+</merger>

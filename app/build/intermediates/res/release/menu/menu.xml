@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/config"
+         android:title="@string/config"
+         android:icon="@android:drawable/ic_menu_preferences"/>
+    <item android:id="@+id/about"
+         android:title="@string/acercade"
+         android:icon="@android:drawable/ic_menu_info_details"/>
+    <item android:id="@+id/exit"
+         android:title="@string/exit" 
+         android:icon="@android:drawable/ic_menu_directions"/>
+</menu><!-- From: file:/C:/Download/AndroidDevelopingFlashlightApplication/test_lpic2/app/src/main/res/menu/menu.xml -->

@@ -1,0 +1,3287 @@
+_____________________________________________________________________
++ Program class: nicolas/alarcon/testlpic/AcercaDe
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class nicolas.alarcon.testlpic.AcercaDe extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 19):
+  + Integer [2130903040]
+  + Class [android/app/Activity]
+  + Class [nicolas/alarcon/testlpic/AcercaDe]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [nicolas/alarcon/testlpic/AcercaDe.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [nicolas/alarcon/testlpic/AcercaDe]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public AcercaDe()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #5
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #6
+        + Methodref [nicolas/alarcon/testlpic/AcercaDe.setContentView (I)V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: nicolas/alarcon/testlpic/a
+  Superclass:    android/widget/BaseAdapter
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class nicolas.alarcon.testlpic.a extends android.widget.BaseAdapter
+
+Interfaces (count = 0):
+
+Constant Pool (count = 83):
+  + Integer [2130837504]
+  + Integer [2130837505]
+  + Integer [2130837506]
+  + Integer [2130837507]
+  + Integer [2130837513]
+  + Integer [2130837514]
+  + Integer [2130837515]
+  + Integer [2130837516]
+  + Integer [2130837517]
+  + Integer [2130837518]
+  + Integer [2130903044]
+  + Integer [2131296281]
+  + Integer [2131296282]
+  + Class [android/app/Activity]
+  + Class [android/view/LayoutInflater]
+  + Class [android/view/View]
+  + Class [android/view/ViewGroup]
+  + Class [android/widget/BaseAdapter]
+  + Class [android/widget/ImageView]
+  + Class [android/widget/TextView]
+  + Class [java/lang/CharSequence]
+  + Class [java/util/Vector]
+  + Class [nicolas/alarcon/testlpic/a]
+  + Fieldref [nicolas/alarcon/testlpic/a.a Landroid/app/Activity;]
+  + Fieldref [nicolas/alarcon/testlpic/a.b Ljava/util/Vector;]
+  + Methodref [android/app/Activity.getLayoutInflater ()Landroid/view/LayoutInflater;]
+  + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;Z)Landroid/view/View;]
+  + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+  + Methodref [android/widget/BaseAdapter.<init> ()V]
+  + Methodref [android/widget/ImageView.setImageResource (I)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [java/util/Vector.elementAt (I)Ljava/lang/Object;]
+  + Methodref [java/util/Vector.size ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/app/Activity;]
+  + NameAndType [b Ljava/util/Vector;]
+  + NameAndType [elementAt (I)Ljava/lang/Object;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getLayoutInflater ()Landroid/view/LayoutInflater;]
+  + NameAndType [inflate (ILandroid/view/ViewGroup;Z)Landroid/view/View;]
+  + NameAndType [setImageResource (I)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [size ()I]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/view/LayoutInflater;]
+  + Utf8 [()V]
+  + Utf8 [(I)J]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/Object;]
+  + Utf8 [(I)V]
+  + Utf8 [(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(ILandroid/view/ViewGroup;Z)Landroid/view/View;]
+  + Utf8 [(Landroid/app/Activity;Ljava/util/Vector;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [Ljava/util/Vector;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/view/LayoutInflater]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/ViewGroup]
+  + Utf8 [android/widget/BaseAdapter]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [elementAt]
+  + Utf8 [findViewById]
+  + Utf8 [getCount]
+  + Utf8 [getItem]
+  + Utf8 [getItemId]
+  + Utf8 [getLayoutInflater]
+  + Utf8 [getView]
+  + Utf8 [inflate]
+  + Utf8 [java/lang/CharSequence]
+  + Utf8 [java/util/Vector]
+  + Utf8 [nicolas/alarcon/testlpic/a]
+  + Utf8 [setImageResource]
+  + Utf8 [setText]
+  + Utf8 [size]
+
+Fields (count = 2):
+  + Field:        a Landroid/app/Activity;
+    Access flags: 0x12
+      = private final android.app.Activity a
+  + Field:        b Ljava/util/Vector;
+    Access flags: 0x12
+      = private final java.util.Vector b
+
+Methods (count = 5):
+  - Method:       <init>(Landroid/app/Activity;Ljava/util/Vector;)V
+    Access flags: 0x1
+      = public a(android.app.Activity,java.util.Vector)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #29
+        + Methodref [android/widget/BaseAdapter.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #24
+        + Fieldref [nicolas/alarcon/testlpic/a.a Landroid/app/Activity;]
+      [9] aload_0 v0
+      [10] aload_2 v2
+      [11] putfield #25
+        + Fieldref [nicolas/alarcon/testlpic/a.b Ljava/util/Vector;]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getCount()I
+    Access flags: 0x1
+      = public int getCount()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #25
+        + Fieldref [nicolas/alarcon/testlpic/a.b Ljava/util/Vector;]
+      [4] invokevirtual #33
+        + Methodref [java/util/Vector.size ()I]
+      [7] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getItem(I)Ljava/lang/Object;
+    Access flags: 0x1
+      = public java.lang.Object getItem(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #25
+        + Fieldref [nicolas/alarcon/testlpic/a.b Ljava/util/Vector;]
+      [4] iload_1 v1
+      [5] invokevirtual #32
+        + Methodref [java/util/Vector.elementAt (I)Ljava/lang/Object;]
+      [8] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getItemId(I)J
+    Access flags: 0x1
+      = public long getItemId(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 3, locals = 2, stack = 2):
+      [0] iload_1 v1
+      [1] i2l
+      [2] lreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
+    Access flags: 0x1
+      = public android.view.View getView(int,android.view.View,android.view.ViewGroup)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 216, locals = 8, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #24
+        + Fieldref [nicolas/alarcon/testlpic/a.a Landroid/app/Activity;]
+      [4] invokevirtual #26
+        + Methodref [android/app/Activity.getLayoutInflater ()Landroid/view/LayoutInflater;]
+      [7] astore v4
+      [9] aload v4
+      [11] ldc #11
+        + Integer [2130903044]
+      [13] aconst_null
+      [14] iconst_1
+      [15] invokevirtual #27
+        + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;Z)Landroid/view/View;]
+      [18] astore v5
+      [20] aload v5
+      [22] ldc #13
+        + Integer [2131296282]
+      [24] invokevirtual #28
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [27] checkcast #20
+        + Class [android/widget/TextView]
+      [30] astore v6
+      [32] aload v6
+      [34] aload_0 v0
+      [35] getfield #25
+        + Fieldref [nicolas/alarcon/testlpic/a.b Ljava/util/Vector;]
+      [38] iload_1 v1
+      [39] invokevirtual #32
+        + Methodref [java/util/Vector.elementAt (I)Ljava/lang/Object;]
+      [42] checkcast #21
+        + Class [java/lang/CharSequence]
+      [45] invokevirtual #31
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [48] aload v5
+      [50] ldc #12
+        + Integer [2131296281]
+      [52] invokevirtual #28
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [55] checkcast #19
+        + Class [android/widget/ImageView]
+      [58] astore v7
+      [60] iload_1 v1
+      [61] tableswitch (10 offsets, default=152) (target=213)
+        0: offset = 55, target = 116
+        1: offset = 65, target = 126
+        2: offset = 75, target = 136
+        3: offset = 85, target = 146
+        4: offset = 95, target = 156
+        5: offset = 105, target = 166
+        6: offset = 115, target = 176
+        7: offset = 125, target = 186
+        8: offset = 135, target = 196
+        9: offset = 145, target = 206
+        default: offset = 152, target = 213
+      [116] aload v7
+      [118] ldc #10
+        + Integer [2130837518]
+      [120] invokevirtual #30
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [123] goto +90 (target=213)
+      [126] aload v7
+      [128] ldc #4
+        + Integer [2130837507]
+      [130] invokevirtual #30
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [133] goto +80 (target=213)
+      [136] aload v7
+      [138] ldc #9
+        + Integer [2130837517]
+      [140] invokevirtual #30
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [143] goto +70 (target=213)
+      [146] aload v7
+      [148] ldc #2
+        + Integer [2130837505]
+      [150] invokevirtual #30
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [153] goto +60 (target=213)
+      [156] aload v7
+      [158] ldc #1
+        + Integer [2130837504]
+      [160] invokevirtual #30
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [163] goto +50 (target=213)
+      [166] aload v7
+      [168] ldc #7
+        + Integer [2130837515]
+      [170] invokevirtual #30
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [173] goto +40 (target=213)
+      [176] aload v7
+      [178] ldc #8
+        + Integer [2130837516]
+      [180] invokevirtual #30
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [183] goto +30 (target=213)
+      [186] aload v7
+      [188] ldc #6
+        + Integer [2130837514]
+      [190] invokevirtual #30
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [193] goto +20 (target=213)
+      [196] aload v7
+      [198] ldc #5
+        + Integer [2130837513]
+      [200] invokevirtual #30
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [203] goto +10 (target=213)
+      [206] aload v7
+      [208] ldc #3
+        + Integer [2130837506]
+      [210] invokevirtual #30
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [213] aload v5
+      [215] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 11):
+        - [116] Var: [a:nicolas/alarcon/testlpic/a][i][a:android/view/View][a:android/view/ViewGroup][a:android/view/LayoutInflater][a:android/view/View][a:android/widget/TextView][a:android/widget/ImageView], Stack: 
+        - [126] Var: ..., Stack: (empty)
+        - [136] Var: ..., Stack: (empty)
+        - [146] Var: ..., Stack: (empty)
+        - [156] Var: ..., Stack: (empty)
+        - [166] Var: ..., Stack: (empty)
+        - [176] Var: ..., Stack: (empty)
+        - [186] Var: ..., Stack: (empty)
+        - [196] Var: ..., Stack: (empty)
+        - [206] Var: ..., Stack: (empty)
+        - [213] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: nicolas/alarcon/testlpic/Boot
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class nicolas.alarcon.testlpic.Boot extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 86):
+  + Integer [2130903041]
+  + Integer [2131230721]
+  + Class [android/app/Activity]
+  + Class [android/content/Intent]
+  + Class [android/view/MenuInflater]
+  + Class [android/view/MenuItem]
+  + Class [nicolas/alarcon/testlpic/AcercaDe]
+  + Class [nicolas/alarcon/testlpic/Boot]
+  + Class [nicolas/alarcon/testlpic/Configuracion]
+  + Class [nicolas/alarcon/testlpic/PreguntasLpic]
+  + Class [nicolas/alarcon/testlpic/Puntuaciones]
+  + Class [nicolas/alarcon/testlpic/b]
+  + Fieldref [nicolas/alarcon/testlpic/Boot.a Lnicolas/alarcon/testlpic/b;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onCreateOptionsMenu (Landroid/view/Menu;)Z]
+  + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+  + Methodref [nicolas/alarcon/testlpic/Boot.finish ()V]
+  + Methodref [nicolas/alarcon/testlpic/Boot.getMenuInflater ()Landroid/view/MenuInflater;]
+  + Methodref [nicolas/alarcon/testlpic/Boot.lanzarConfiguracion (Landroid/view/View;)V]
+  + Methodref [nicolas/alarcon/testlpic/Boot.lanzarSalir (Landroid/view/View;)V]
+  + Methodref [nicolas/alarcon/testlpic/Boot.setContentView (I)V]
+  + Methodref [nicolas/alarcon/testlpic/Boot.startActivity (Landroid/content/Intent;)V]
+  + Methodref [nicolas/alarcon/testlpic/b.<init> (Landroid/content/Context;)V]
+  + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [a Lnicolas/alarcon/testlpic/b;]
+  + NameAndType [finish ()V]
+  + NameAndType [getItemId ()I]
+  + NameAndType [getMenuInflater ()Landroid/view/MenuInflater;]
+  + NameAndType [inflate (ILandroid/view/Menu;)V]
+  + NameAndType [lanzarConfiguracion (Landroid/view/View;)V]
+  + NameAndType [lanzarSalir (Landroid/view/View;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onCreateOptionsMenu (Landroid/view/Menu;)Z]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/view/MenuInflater;]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(ILandroid/view/Menu;)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/Menu;)Z]
+  + Utf8 [(Landroid/view/MenuItem;)Z]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lnicolas/alarcon/testlpic/b;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/view/MenuInflater]
+  + Utf8 [android/view/MenuItem]
+  + Utf8 [button2print]
+  + Utf8 [button3print]
+  + Utf8 [finish]
+  + Utf8 [getItemId]
+  + Utf8 [getMenuInflater]
+  + Utf8 [inflate]
+  + Utf8 [lanzarConfiguracion]
+  + Utf8 [lanzarPuntuaciones]
+  + Utf8 [lanzarRapidText]
+  + Utf8 [lanzarSalir]
+  + Utf8 [llpic1print]
+  + Utf8 [llpic2print]
+  + Utf8 [llpic3print]
+  + Utf8 [nicolas/alarcon/testlpic/AcercaDe]
+  + Utf8 [nicolas/alarcon/testlpic/Boot]
+  + Utf8 [nicolas/alarcon/testlpic/Configuracion]
+  + Utf8 [nicolas/alarcon/testlpic/PreguntasLpic]
+  + Utf8 [nicolas/alarcon/testlpic/Puntuaciones]
+  + Utf8 [nicolas/alarcon/testlpic/b]
+  + Utf8 [onCreate]
+  + Utf8 [onCreateOptionsMenu]
+  + Utf8 [onOptionsItemSelected]
+  + Utf8 [setContentView]
+  + Utf8 [startActivity]
+
+Fields (count = 1):
+  + Field:        a Lnicolas/alarcon/testlpic/b;
+    Access flags: 0x8
+      = static nicolas.alarcon.testlpic.b a
+
+Methods (count = 13):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Boot()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #14
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 25, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #15
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] pop
+      [7] new #12
+        + Class [nicolas/alarcon/testlpic/b]
+      [10] dup
+      [11] aload_0 v0
+      [12] invokespecial #25
+        + Methodref [nicolas/alarcon/testlpic/b.<init> (Landroid/content/Context;)V]
+      [15] putstatic #13
+        + Fieldref [nicolas/alarcon/testlpic/Boot.a Lnicolas/alarcon/testlpic/b;]
+      [18] aload_0 v0
+      [19] ldc #1
+        + Integer [2130903041]
+      [21] invokevirtual #23
+        + Methodref [nicolas/alarcon/testlpic/Boot.setContentView (I)V]
+      [24] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreateOptionsMenu(Landroid/view/Menu;)Z
+    Access flags: 0x1
+      = public boolean onCreateOptionsMenu(android.view.Menu)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #16
+        + Methodref [android/app/Activity.onCreateOptionsMenu (Landroid/view/Menu;)Z]
+      [5] pop
+      [6] aload_0 v0
+      [7] invokevirtual #20
+        + Methodref [nicolas/alarcon/testlpic/Boot.getMenuInflater ()Landroid/view/MenuInflater;]
+      [10] astore_2 v2
+      [11] aload_2 v2
+      [12] ldc #2
+        + Integer [2131230721]
+      [14] aload_1 v1
+      [15] invokevirtual #18
+        + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+      [18] iconst_1
+      [19] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    Access flags: 0x1
+      = public boolean onOptionsItemSelected(android.view.MenuItem)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 47, locals = 2, stack = 2):
+      [0] aload_1 v1
+      [1] invokeinterface #26
+        + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+      [6] lookupswitch (2 offsets, default=39) (target=45)
+        2131296285: offset = 34, target = 40
+        2131296287: offset = 26, target = 32
+        default: offset = 39, target = 45
+      [32] aload_0 v0
+      [33] aconst_null
+      [34] invokevirtual #22
+        + Methodref [nicolas/alarcon/testlpic/Boot.lanzarSalir (Landroid/view/View;)V]
+      [37] goto +8 (target=45)
+      [40] aload_0 v0
+      [41] aconst_null
+      [42] invokevirtual #21
+        + Methodref [nicolas/alarcon/testlpic/Boot.lanzarConfiguracion (Landroid/view/View;)V]
+      [45] iconst_1
+      [46] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [32] Var: ..., Stack: (empty)
+        - [40] Var: ..., Stack: (empty)
+        - [45] Var: ..., Stack: (empty)
+  + Method:       lanzarPuntuaciones(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void lanzarPuntuaciones(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 3, stack = 4):
+      [0] new #4
+        + Class [android/content/Intent]
+      [3] dup
+      [4] aload_0 v0
+      [5] ldc #11
+        + Class [nicolas/alarcon/testlpic/Puntuaciones]
+      [7] invokespecial #17
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [10] astore_2 v2
+      [11] aload_0 v0
+      [12] aload_2 v2
+      [13] invokevirtual #24
+        + Methodref [nicolas/alarcon/testlpic/Boot.startActivity (Landroid/content/Intent;)V]
+      [16] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       lanzarConfiguracion(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void lanzarConfiguracion(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 3, stack = 4):
+      [0] new #4
+        + Class [android/content/Intent]
+      [3] dup
+      [4] aload_0 v0
+      [5] ldc #9
+        + Class [nicolas/alarcon/testlpic/Configuracion]
+      [7] invokespecial #17
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [10] astore_2 v2
+      [11] aload_0 v0
+      [12] aload_2 v2
+      [13] invokevirtual #24
+        + Methodref [nicolas/alarcon/testlpic/Boot.startActivity (Landroid/content/Intent;)V]
+      [16] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       lanzarSalir(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void lanzarSalir(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 2, stack = 1):
+      [0] aload_0 v0
+      [1] invokevirtual #19
+        + Methodref [nicolas/alarcon/testlpic/Boot.finish ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       lanzarRapidText(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void lanzarRapidText(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 3, stack = 4):
+      [0] new #4
+        + Class [android/content/Intent]
+      [3] dup
+      [4] aload_0 v0
+      [5] ldc #9
+        + Class [nicolas/alarcon/testlpic/Configuracion]
+      [7] invokespecial #17
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [10] astore_2 v2
+      [11] aload_0 v0
+      [12] aload_2 v2
+      [13] invokevirtual #24
+        + Methodref [nicolas/alarcon/testlpic/Boot.startActivity (Landroid/content/Intent;)V]
+      [16] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       button2print(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void button2print(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 2, stack = 1):
+      [0] aload_0 v0
+      [1] invokevirtual #19
+        + Methodref [nicolas/alarcon/testlpic/Boot.finish ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       button3print(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void button3print(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 3, stack = 4):
+      [0] new #4
+        + Class [android/content/Intent]
+      [3] dup
+      [4] aload_0 v0
+      [5] ldc #7
+        + Class [nicolas/alarcon/testlpic/AcercaDe]
+      [7] invokespecial #17
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [10] astore_2 v2
+      [11] aload_0 v0
+      [12] aload_2 v2
+      [13] invokevirtual #24
+        + Methodref [nicolas/alarcon/testlpic/Boot.startActivity (Landroid/content/Intent;)V]
+      [16] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       llpic1print(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void llpic1print(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 3, stack = 4):
+      [0] new #4
+        + Class [android/content/Intent]
+      [3] dup
+      [4] aload_0 v0
+      [5] ldc #10
+        + Class [nicolas/alarcon/testlpic/PreguntasLpic]
+      [7] invokespecial #17
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [10] astore_2 v2
+      [11] aload_0 v0
+      [12] aload_2 v2
+      [13] invokevirtual #24
+        + Methodref [nicolas/alarcon/testlpic/Boot.startActivity (Landroid/content/Intent;)V]
+      [16] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       llpic2print(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void llpic2print(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 3, stack = 4):
+      [0] new #4
+        + Class [android/content/Intent]
+      [3] dup
+      [4] aload_0 v0
+      [5] ldc #10
+        + Class [nicolas/alarcon/testlpic/PreguntasLpic]
+      [7] invokespecial #17
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [10] astore_2 v2
+      [11] aload_0 v0
+      [12] aload_2 v2
+      [13] invokevirtual #24
+        + Methodref [nicolas/alarcon/testlpic/Boot.startActivity (Landroid/content/Intent;)V]
+      [16] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       llpic3print(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void llpic3print(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 3, stack = 4):
+      [0] new #4
+        + Class [android/content/Intent]
+      [3] dup
+      [4] aload_0 v0
+      [5] ldc #10
+        + Class [nicolas/alarcon/testlpic/PreguntasLpic]
+      [7] invokespecial #17
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [10] astore_2 v2
+      [11] aload_0 v0
+      [12] aload_2 v2
+      [13] invokevirtual #24
+        + Methodref [nicolas/alarcon/testlpic/Boot.startActivity (Landroid/content/Intent;)V]
+      [16] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: nicolas/alarcon/testlpic/Configuracion
+  Superclass:    android/preference/PreferenceActivity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class nicolas.alarcon.testlpic.Configuracion extends android.preference.PreferenceActivity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 19):
+  + Integer [2130968576]
+  + Class [android/preference/PreferenceActivity]
+  + Class [nicolas/alarcon/testlpic/Configuracion]
+  + Methodref [android/preference/PreferenceActivity.<init> ()V]
+  + Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [nicolas/alarcon/testlpic/Configuracion.addPreferencesFromResource (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [addPreferencesFromResource (I)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [addPreferencesFromResource]
+  + Utf8 [android/preference/PreferenceActivity]
+  + Utf8 [nicolas/alarcon/testlpic/Configuracion]
+  + Utf8 [onCreate]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Configuracion()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [android/preference/PreferenceActivity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #5
+        + Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130968576]
+      [8] invokevirtual #6
+        + Methodref [nicolas/alarcon/testlpic/Configuracion.addPreferencesFromResource (I)V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: nicolas/alarcon/testlpic/b
+  Superclass:    android/database/sqlite/SQLiteOpenHelper
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class nicolas.alarcon.testlpic.b extends android.database.sqlite.SQLiteOpenHelper
+
+Interfaces (count = 0):
+
+Constant Pool (count = 161):
+  + Integer [1000000]
+  + String [ - ]
+  + String [ ORDER BY puntos DESC LIMIT 10]
+  + String [', ]
+  + String [)]
+  + String [, ]
+  + String [, ']
+  + String [/data/data/nicolas.alarcon.testlpic/databases/]
+  + String [;]
+  + String [BaseDeDatos.sqlite]
+  + String [CREATE TABLE preguntas (_id INTEGER PRIMARY KEY AUTOINCREMENT, pregunta TEXT, respuesta1 TEXT, respuesta2 TEXT, respuesta3 TEXT, respuesta4 TEXT, correcta INTEGER, tematica INTEGER, id_pregunta INTEGER)]
+  + String [CREATE TABLE puntuaciones (_id INTEGER PRIMARY KEY AUTOINCREMENT, puntos INTEGER, nombre TEXT, fecha LONG, tematica INTEGER)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica10', '8', '12', '4', '2', 4, 1, 1)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica11', 'Borrar', 'Copiar', 'Eliminar', 'Pegar', 2, 1, 1)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica12', '8', '12', '4', '2', 1, 1, 1)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica13', 'Borrar', 'Copiar', 'Eliminar', 'Pegar', 3, 1, 1)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica14', 'un archivo', 'un GIF', 'un Directorio', 'un PDF', 3, 1, 6)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica15', 'Si', 'No se', 'Si,pero despues del HD', 'NO', 4, 1, 7)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica16', 'No', 'Si despues', 'No,antes bios', 'no se', 1, 1, 8)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica17', 'un archivo', 'un directorio', 'un Gif', 'un oculto', 2, 1, 9)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica18', 'los archivos ocultos', 'un directorio', 'los permisos de escritura', 'los oculto', 3, 1, 9)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica19', 'el ditectorio actual', 'el directorio raiz', 'la hora', 'los permisos', 1, 1, 10)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica20', 'Son Goku', 'Vegeta', 'Son Goten', 'Krilin', 1, 2, 1)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica21', 'Mu', 'Shaka', 'Ikki', 'Kiki', 3, 2, 2)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica22', 'Yu Kanda', 'Lucy Heartphilia', 'Allen Walker', 'Linali Li', 3, 2, 3)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica23', 'preguntaTematica2Respuesta31', 'One Piece', 'Big Whoop', 'preguntaTematica2Respuesta32', 2, 2, 4)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica24', 'Shinigami', 'Vizar', 'Arrancar', 'Hollow', 1, 2, 5)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica25', 'Naruto', 'Bleach', 'One Piece', 'preguntaTematica2Respuesta51', 4, 2, 6)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica26', 'Rasengan', 'Chidori', 'Final Flash', 'Raikiri', 3, 2, 7)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica27', 'preguntaTematica2Respuesta71', 'preguntaTematica2Respuesta72', 'preguntaTematica2Respuesta73', 'preguntaTematica2Respuesta74', 1, 2, 8)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica28', 'Asuna', 'Kirito', 'Leafa', 'Yui', 2, 2, 9)]
+  + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica29', 'Natsu', 'Happy', 'Gray', 'Erza', 1, 2, 10)]
+  + String [INSERT INTO puntuaciones VALUES ( null, ]
+  + String [Jugador ]
+  + String [SELECT pregunta, respuesta1, respuesta2, respuesta3, respuesta4, correcta FROM preguntas ORDER BY id_pregunta ASC LIMIT 10]
+  + String [SELECT pregunta, respuesta1, respuesta2, respuesta3, respuesta4, correcta FROM preguntas where tematica=]
+  + String [SELECT puntos, nombre FROM puntuaciones ORDER BY puntos DESC LIMIT 10]
+  + String [SELECT puntos, nombre FROM puntuaciones where tematica=]
+  + Class [android/database/Cursor]
+  + Class [android/database/sqlite/SQLiteDatabase]
+  + Class [android/database/sqlite/SQLiteOpenHelper]
+  + Class [java/lang/StringBuilder]
+  + Class [java/util/Vector]
+  + Class [nicolas/alarcon/testlpic/b]
+  + Fieldref [nicolas/alarcon/testlpic/b.a Ljava/lang/String;]
+  + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+  + Methodref [android/database/sqlite/SQLiteDatabase.rawQuery (Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;]
+  + Methodref [android/database/sqlite/SQLiteOpenHelper.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/util/Vector.<init> ()V]
+  + Methodref [java/util/Vector.add (Ljava/lang/Object;)Z]
+  + Methodref [nicolas/alarcon/testlpic/b.a (Landroid/database/sqlite/SQLiteDatabase;)V]
+  + Methodref [nicolas/alarcon/testlpic/b.getReadableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+  + Methodref [nicolas/alarcon/testlpic/b.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+  + InterfaceMethodref [android/database/Cursor.close ()V]
+  + InterfaceMethodref [android/database/Cursor.getInt (I)I]
+  + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+  + InterfaceMethodref [android/database/Cursor.moveToNext ()Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + NameAndType [a (Landroid/database/sqlite/SQLiteDatabase;)V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [append (I)Ljava/lang/StringBuilder;]
+  + NameAndType [append (J)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [close ()V]
+  + NameAndType [execSQL (Ljava/lang/String;)V]
+  + NameAndType [getInt (I)I]
+  + NameAndType [getReadableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+  + NameAndType [moveToNext ()Z]
+  + NameAndType [rawQuery (Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [ - ]
+  + Utf8 [ ORDER BY puntos DESC LIMIT 10]
+  + Utf8 [', ]
+  + Utf8 [()Landroid/database/sqlite/SQLiteDatabase;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)I]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)Ljava/lang/StringBuilder;]
+  + Utf8 [(I)Ljava/util/Vector;]
+  + Utf8 [(ILjava/lang/String;JI)V]
+  + Utf8 [(J)Ljava/lang/StringBuilder;]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + Utf8 [(Landroid/database/sqlite/SQLiteDatabase;)V]
+  + Utf8 [(Landroid/database/sqlite/SQLiteDatabase;II)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;]
+  + Utf8 [)]
+  + Utf8 [, ]
+  + Utf8 [, ']
+  + Utf8 [/data/data/nicolas.alarcon.testlpic/databases/]
+  + Utf8 [;]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [BaseDeDatos.sqlite]
+  + Utf8 [CREATE TABLE preguntas (_id INTEGER PRIMARY KEY AUTOINCREMENT, pregunta TEXT, respuesta1 TEXT, respuesta2 TEXT, respuesta3 TEXT, respuesta4 TEXT, correcta INTEGER, tematica INTEGER, id_pregunta INTEGER)]
+  + Utf8 [CREATE TABLE puntuaciones (_id INTEGER PRIMARY KEY AUTOINCREMENT, puntos INTEGER, nombre TEXT, fecha LONG, tematica INTEGER)]
+  + Utf8 [Code]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica10', '8', '12', '4', '2', 4, 1, 1)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica11', 'Borrar', 'Copiar', 'Eliminar', 'Pegar', 2, 1, 1)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica12', '8', '12', '4', '2', 1, 1, 1)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica13', 'Borrar', 'Copiar', 'Eliminar', 'Pegar', 3, 1, 1)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica14', 'un archivo', 'un GIF', 'un Directorio', 'un PDF', 3, 1, 6)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica15', 'Si', 'No se', 'Si,pero despues del HD', 'NO', 4, 1, 7)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica16', 'No', 'Si despues', 'No,antes bios', 'no se', 1, 1, 8)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica17', 'un archivo', 'un directorio', 'un Gif', 'un oculto', 2, 1, 9)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica18', 'los archivos ocultos', 'un directorio', 'los permisos de escritura', 'los oculto', 3, 1, 9)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica19', 'el ditectorio actual', 'el directorio raiz', 'la hora', 'los permisos', 1, 1, 10)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica20', 'Son Goku', 'Vegeta', 'Son Goten', 'Krilin', 1, 2, 1)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica21', 'Mu', 'Shaka', 'Ikki', 'Kiki', 3, 2, 2)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica22', 'Yu Kanda', 'Lucy Heartphilia', 'Allen Walker', 'Linali Li', 3, 2, 3)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica23', 'preguntaTematica2Respuesta31', 'One Piece', 'Big Whoop', 'preguntaTematica2Respuesta32', 2, 2, 4)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica24', 'Shinigami', 'Vizar', 'Arrancar', 'Hollow', 1, 2, 5)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica25', 'Naruto', 'Bleach', 'One Piece', 'preguntaTematica2Respuesta51', 4, 2, 6)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica26', 'Rasengan', 'Chidori', 'Final Flash', 'Raikiri', 3, 2, 7)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica27', 'preguntaTematica2Respuesta71', 'preguntaTematica2Respuesta72', 'preguntaTematica2Respuesta73', 'preguntaTematica2Respuesta74', 1, 2, 8)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica28', 'Asuna', 'Kirito', 'Leafa', 'Yui', 2, 2, 9)]
+  + Utf8 [INSERT INTO preguntas VALUES ( null, 'preguntaTematica29', 'Natsu', 'Happy', 'Gray', 'Erza', 1, 2, 10)]
+  + Utf8 [INSERT INTO puntuaciones VALUES ( null, ]
+  + Utf8 [Jugador ]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [SELECT pregunta, respuesta1, respuesta2, respuesta3, respuesta4, correcta FROM preguntas ORDER BY id_pregunta ASC LIMIT 10]
+  + Utf8 [SELECT pregunta, respuesta1, respuesta2, respuesta3, respuesta4, correcta FROM preguntas where tematica=]
+  + Utf8 [SELECT puntos, nombre FROM puntuaciones ORDER BY puntos DESC LIMIT 10]
+  + Utf8 [SELECT puntos, nombre FROM puntuaciones where tematica=]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [android/database/sqlite/SQLiteDatabase]
+  + Utf8 [android/database/sqlite/SQLiteOpenHelper]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [close]
+  + Utf8 [execSQL]
+  + Utf8 [getInt]
+  + Utf8 [getReadableDatabase]
+  + Utf8 [getString]
+  + Utf8 [getWritableDatabase]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/util/Vector]
+  + Utf8 [moveToNext]
+  + Utf8 [nicolas/alarcon/testlpic/b]
+  + Utf8 [onCreate]
+  + Utf8 [onUpgrade]
+  + Utf8 [rawQuery]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String a
+
+Methods (count = 8):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x1
+      = public b(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] ldc #10
+        + String [BaseDeDatos.sqlite]
+      [4] aconst_null
+      [5] iconst_1
+      [6] invokespecial #48
+        + Methodref [android/database/sqlite/SQLiteOpenHelper.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
+    Access flags: 0x1
+      = public void onCreate(android.database.sqlite.SQLiteDatabase)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 18, locals = 2, stack = 2):
+      [0] aload_1 v1
+      [1] ldc #12
+        + String [CREATE TABLE puntuaciones (_id INTEGER PRIMARY KEY AUTOINCREMENT, puntos INTEGER, nombre TEXT, fecha LONG, tematica INTEGER)]
+      [3] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [6] aload_1 v1
+      [7] ldc #11
+        + String [CREATE TABLE preguntas (_id INTEGER PRIMARY KEY AUTOINCREMENT, pregunta TEXT, respuesta1 TEXT, respuesta2 TEXT, respuesta3 TEXT, respuesta4 TEXT, correcta INTEGER, tematica INTEGER, id_pregunta INTEGER)]
+      [9] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [12] aload_0 v0
+      [13] aload_1 v1
+      [14] invokespecial #56
+        + Methodref [nicolas/alarcon/testlpic/b.a (Landroid/database/sqlite/SQLiteDatabase;)V]
+      [17] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
+    Access flags: 0x1
+      = public void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 4, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(ILjava/lang/String;JI)V
+    Access flags: 0x1
+      = public void a(int,java.lang.String,long,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 64, locals = 7, stack = 4):
+      [0] aload_0 v0
+      [1] invokevirtual #58
+        + Methodref [nicolas/alarcon/testlpic/b.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+      [4] astore v6
+      [6] aload v6
+      [8] new #42
+        + Class [java/lang/StringBuilder]
+      [11] dup
+      [12] invokespecial #49
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [15] ldc #33
+        + String [INSERT INTO puntuaciones VALUES ( null, ]
+      [17] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [20] iload_1 v1
+      [21] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [24] ldc #7
+        + String [, ']
+      [26] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [29] aload_2 v2
+      [30] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [33] ldc #4
+        + String [', ]
+      [35] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [38] lload_3 v3
+      [39] invokevirtual #51
+        + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+      [42] ldc #6
+        + String [, ]
+      [44] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [47] iload v5
+      [49] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [52] ldc #5
+        + String [)]
+      [54] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [57] invokevirtual #53
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [60] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [63] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(I)Ljava/util/Vector;
+    Access flags: 0x1
+      = public java.util.Vector a(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 125, locals = 5, stack = 4):
+      [0] new #43
+        + Class [java/util/Vector]
+      [3] dup
+      [4] invokespecial #54
+        + Methodref [java/util/Vector.<init> ()V]
+      [7] astore_2 v2
+      [8] aload_0 v0
+      [9] invokevirtual #57
+        + Methodref [nicolas/alarcon/testlpic/b.getReadableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+      [12] astore_3 v3
+      [13] iload_1 v1
+      [14] iconst_3
+      [15] ificmpeq +37 (target=52)
+      [18] aload_3 v3
+      [19] new #42
+        + Class [java/lang/StringBuilder]
+      [22] dup
+      [23] invokespecial #49
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [26] ldc #38
+        + String [SELECT puntos, nombre FROM puntuaciones where tematica=]
+      [28] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [31] iload_1 v1
+      [32] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [35] ldc #3
+        + String [ ORDER BY puntos DESC LIMIT 10]
+      [37] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [40] invokevirtual #53
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [43] aconst_null
+      [44] invokevirtual #47
+        + Methodref [android/database/sqlite/SQLiteDatabase.rawQuery (Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;]
+      [47] astore v4
+      [49] goto +12 (target=61)
+      [52] aload_3 v3
+      [53] ldc #37
+        + String [SELECT puntos, nombre FROM puntuaciones ORDER BY puntos DESC LIMIT 10]
+      [55] aconst_null
+      [56] invokevirtual #47
+        + Methodref [android/database/sqlite/SQLiteDatabase.rawQuery (Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;]
+      [59] astore v4
+      [61] aload v4
+      [63] invokeinterface #62
+        + InterfaceMethodref [android/database/Cursor.moveToNext ()Z]
+      [68] ifeq +48 (target=116)
+      [71] aload_2 v2
+      [72] new #42
+        + Class [java/lang/StringBuilder]
+      [75] dup
+      [76] invokespecial #49
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [79] aload v4
+      [81] iconst_1
+      [82] invokeinterface #61
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [87] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [90] ldc #2
+        + String [ - ]
+      [92] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [95] aload v4
+      [97] iconst_0
+      [98] invokeinterface #60
+        + InterfaceMethodref [android/database/Cursor.getInt (I)I]
+      [103] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [106] invokevirtual #53
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [109] invokevirtual #55
+        + Methodref [java/util/Vector.add (Ljava/lang/Object;)Z]
+      [112] pop
+      [113] goto -52 (target=61)
+      [116] aload v4
+      [118] invokeinterface #59
+        + InterfaceMethodref [android/database/Cursor.close ()V]
+      [123] aload_2 v2
+      [124] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [52] Var: ...[a:java/util/Vector][a:android/database/sqlite/SQLiteDatabase], Stack: (empty)
+        - [61] Var: ...[a:android/database/Cursor], Stack: (empty)
+        - [116] Var: ..., Stack: (empty)
+  + Method:       b(I)Ljava/util/Vector;
+    Access flags: 0x1
+      = public java.util.Vector b(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 184, locals = 5, stack = 4):
+      [0] new #43
+        + Class [java/util/Vector]
+      [3] dup
+      [4] invokespecial #54
+        + Methodref [java/util/Vector.<init> ()V]
+      [7] astore_2 v2
+      [8] aload_0 v0
+      [9] invokevirtual #57
+        + Methodref [nicolas/alarcon/testlpic/b.getReadableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+      [12] astore_3 v3
+      [13] iload_1 v1
+      [14] iconst_3
+      [15] ificmpeq +32 (target=47)
+      [18] aload_3 v3
+      [19] new #42
+        + Class [java/lang/StringBuilder]
+      [22] dup
+      [23] invokespecial #49
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [26] ldc #36
+        + String [SELECT pregunta, respuesta1, respuesta2, respuesta3, respuesta4, correcta FROM preguntas where tematica=]
+      [28] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [31] iload_1 v1
+      [32] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [35] invokevirtual #53
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [38] aconst_null
+      [39] invokevirtual #47
+        + Methodref [android/database/sqlite/SQLiteDatabase.rawQuery (Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;]
+      [42] astore v4
+      [44] goto +12 (target=56)
+      [47] aload_3 v3
+      [48] ldc #35
+        + String [SELECT pregunta, respuesta1, respuesta2, respuesta3, respuesta4, correcta FROM preguntas ORDER BY id_pregunta ASC LIMIT 10]
+      [50] aconst_null
+      [51] invokevirtual #47
+        + Methodref [android/database/sqlite/SQLiteDatabase.rawQuery (Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;]
+      [54] astore v4
+      [56] aload v4
+      [58] invokeinterface #62
+        + InterfaceMethodref [android/database/Cursor.moveToNext ()Z]
+      [63] ifeq +112 (target=175)
+      [66] aload_2 v2
+      [67] new #42
+        + Class [java/lang/StringBuilder]
+      [70] dup
+      [71] invokespecial #49
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [74] aload v4
+      [76] iconst_0
+      [77] invokeinterface #61
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [82] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [85] ldc #9
+        + String [;]
+      [87] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [90] aload v4
+      [92] iconst_1
+      [93] invokeinterface #61
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [98] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [101] ldc #9
+        + String [;]
+      [103] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [106] aload v4
+      [108] iconst_2
+      [109] invokeinterface #61
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [114] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [117] ldc #9
+        + String [;]
+      [119] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [122] aload v4
+      [124] iconst_3
+      [125] invokeinterface #61
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [130] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [133] ldc #9
+        + String [;]
+      [135] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [138] aload v4
+      [140] iconst_4
+      [141] invokeinterface #61
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [146] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [149] ldc #9
+        + String [;]
+      [151] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [154] aload v4
+      [156] iconst_5
+      [157] invokeinterface #60
+        + InterfaceMethodref [android/database/Cursor.getInt (I)I]
+      [162] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [165] invokevirtual #53
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [168] invokevirtual #55
+        + Methodref [java/util/Vector.add (Ljava/lang/Object;)Z]
+      [171] pop
+      [172] goto -116 (target=56)
+      [175] aload v4
+      [177] invokeinterface #59
+        + InterfaceMethodref [android/database/Cursor.close ()V]
+      [182] aload_2 v2
+      [183] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [47] Var: ...[a:java/util/Vector][a:android/database/sqlite/SQLiteDatabase], Stack: (empty)
+        - [56] Var: ...[a:android/database/Cursor], Stack: (empty)
+        - [175] Var: ..., Stack: (empty)
+  + Method:       a(Landroid/database/sqlite/SQLiteDatabase;)V
+    Access flags: 0x2
+      = private void a(android.database.sqlite.SQLiteDatabase)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 238, locals = 4, stack = 4):
+      [0] iconst_0
+      [1] istore_2 v2
+      [2] iload_2 v2
+      [3] bipush 20
+      [5] ificmpge +112 (target=117)
+      [8] new #42
+        + Class [java/lang/StringBuilder]
+      [11] dup
+      [12] invokespecial #49
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [15] ldc #34
+        + String [Jugador ]
+      [17] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [20] iload_2 v2
+      [21] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [24] invokevirtual #53
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [27] astore_3 v3
+      [28] aload_1 v1
+      [29] new #42
+        + Class [java/lang/StringBuilder]
+      [32] dup
+      [33] invokespecial #49
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [36] ldc #33
+        + String [INSERT INTO puntuaciones VALUES ( null, ]
+      [38] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [41] iload_2 v2
+      [42] sipush 1000
+      [45] imul
+      [46] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [49] ldc #7
+        + String [, ']
+      [51] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [54] aload_3 v3
+      [55] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [58] ldc #4
+        + String [', ]
+      [60] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [63] iload_2 v2
+      [64] ldc #1
+        + Integer [1000000]
+      [66] imul
+      [67] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [70] iload_2 v2
+      [71] bipush 12
+      [73] irem
+      [74] sipush 10000
+      [77] imul
+      [78] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [81] sipush 2013
+      [84] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [87] ldc #6
+        + String [, ]
+      [89] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [92] iload_2 v2
+      [93] iconst_2
+      [94] irem
+      [95] iconst_1
+      [96] iadd
+      [97] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [100] ldc #5
+        + String [)]
+      [102] invokevirtual #52
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [105] invokevirtual #53
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [108] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [111] iinc v2, 1
+      [114] goto -112 (target=2)
+      [117] aload_1 v1
+      [118] ldc #13
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica10', '8', '12', '4', '2', 4, 1, 1)]
+      [120] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [123] aload_1 v1
+      [124] ldc #14
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica11', 'Borrar', 'Copiar', 'Eliminar', 'Pegar', 2, 1, 1)]
+      [126] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [129] aload_1 v1
+      [130] ldc #15
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica12', '8', '12', '4', '2', 1, 1, 1)]
+      [132] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [135] aload_1 v1
+      [136] ldc #16
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica13', 'Borrar', 'Copiar', 'Eliminar', 'Pegar', 3, 1, 1)]
+      [138] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [141] aload_1 v1
+      [142] ldc #17
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica14', 'un archivo', 'un GIF', 'un Directorio', 'un PDF', 3, 1, 6)]
+      [144] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [147] aload_1 v1
+      [148] ldc #18
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica15', 'Si', 'No se', 'Si,pero despues del HD', 'NO', 4, 1, 7)]
+      [150] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [153] aload_1 v1
+      [154] ldc #19
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica16', 'No', 'Si despues', 'No,antes bios', 'no se', 1, 1, 8)]
+      [156] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [159] aload_1 v1
+      [160] ldc #20
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica17', 'un archivo', 'un directorio', 'un Gif', 'un oculto', 2, 1, 9)]
+      [162] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [165] aload_1 v1
+      [166] ldc #21
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica18', 'los archivos ocultos', 'un directorio', 'los permisos de escritura', 'los oculto', 3, 1, 9)]
+      [168] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [171] aload_1 v1
+      [172] ldc #22
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica19', 'el ditectorio actual', 'el directorio raiz', 'la hora', 'los permisos', 1, 1, 10)]
+      [174] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [177] aload_1 v1
+      [178] ldc #23
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica20', 'Son Goku', 'Vegeta', 'Son Goten', 'Krilin', 1, 2, 1)]
+      [180] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [183] aload_1 v1
+      [184] ldc #24
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica21', 'Mu', 'Shaka', 'Ikki', 'Kiki', 3, 2, 2)]
+      [186] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [189] aload_1 v1
+      [190] ldc #25
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica22', 'Yu Kanda', 'Lucy Heartphilia', 'Allen Walker', 'Linali Li', 3, 2, 3)]
+      [192] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [195] aload_1 v1
+      [196] ldc #26
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica23', 'preguntaTematica2Respuesta31', 'One Piece', 'Big Whoop', 'preguntaTematica2Respuesta32', 2, 2, 4)]
+      [198] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [201] aload_1 v1
+      [202] ldc #27
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica24', 'Shinigami', 'Vizar', 'Arrancar', 'Hollow', 1, 2, 5)]
+      [204] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [207] aload_1 v1
+      [208] ldc #28
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica25', 'Naruto', 'Bleach', 'One Piece', 'preguntaTematica2Respuesta51', 4, 2, 6)]
+      [210] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [213] aload_1 v1
+      [214] ldc #29
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica26', 'Rasengan', 'Chidori', 'Final Flash', 'Raikiri', 3, 2, 7)]
+      [216] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [219] aload_1 v1
+      [220] ldc #30
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica27', 'preguntaTematica2Respuesta71', 'preguntaTematica2Respuesta72', 'preguntaTematica2Respuesta73', 'preguntaTematica2Respuesta74', 1, 2, 8)]
+      [222] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [225] aload_1 v1
+      [226] ldc #31
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica28', 'Asuna', 'Kirito', 'Leafa', 'Yui', 2, 2, 9)]
+      [228] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [231] aload_1 v1
+      [232] ldc #32
+        + String [INSERT INTO preguntas VALUES ( null, 'preguntaTematica29', 'Natsu', 'Happy', 'Gray', 'Erza', 1, 2, 10)]
+      [234] invokevirtual #46
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [237] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [2] Var: ...[i], Stack: (empty)
+        - [117] Var: -1, Stack: (empty)
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 0, stack = 1):
+      [0] ldc #8
+        + String [/data/data/nicolas.alarcon.testlpic/databases/]
+      [2] putstatic #45
+        + Fieldref [nicolas/alarcon/testlpic/b.a Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: nicolas/alarcon/testlpic/PideNombre
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class nicolas.alarcon.testlpic.PideNombre extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 35):
+  + Integer [2130903043]
+  + Integer [2131296280]
+  + Class [android/app/Activity]
+  + Class [android/widget/Button]
+  + Class [nicolas/alarcon/testlpic/PideNombre]
+  + Class [nicolas/alarcon/testlpic/c]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [nicolas/alarcon/testlpic/PideNombre.findViewById (I)Landroid/view/View;]
+  + Methodref [nicolas/alarcon/testlpic/PideNombre.setContentView (I)V]
+  + Methodref [nicolas/alarcon/testlpic/c.<init> (Lnicolas/alarcon/testlpic/PideNombre;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lnicolas/alarcon/testlpic/PideNombre;)V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lnicolas/alarcon/testlpic/PideNombre;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/Button]
+  + Utf8 [findViewById]
+  + Utf8 [nicolas/alarcon/testlpic/PideNombre]
+  + Utf8 [nicolas/alarcon/testlpic/c]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public PideNombre()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #7
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 34, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #8
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903043]
+      [8] invokevirtual #11
+        + Methodref [nicolas/alarcon/testlpic/PideNombre.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #2
+        + Integer [2131296280]
+      [14] invokevirtual #10
+        + Methodref [nicolas/alarcon/testlpic/PideNombre.findViewById (I)Landroid/view/View;]
+      [17] checkcast #4
+        + Class [android/widget/Button]
+      [20] astore_2 v2
+      [21] aload_2 v2
+      [22] new #6
+        + Class [nicolas/alarcon/testlpic/c]
+      [25] dup
+      [26] aload_0 v0
+      [27] invokespecial #12
+        + Methodref [nicolas/alarcon/testlpic/c.<init> (Lnicolas/alarcon/testlpic/PideNombre;)V]
+      [30] invokevirtual #9
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [33] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: nicolas/alarcon/testlpic/c
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class nicolas.alarcon.testlpic.c extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 61):
+  + Integer [2131296279]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/EditText]
+  + Class [java/lang/Object]
+  + Class [nicolas/alarcon/testlpic/Boot]
+  + Class [nicolas/alarcon/testlpic/PideNombre]
+  + Class [nicolas/alarcon/testlpic/PreguntasLpic]
+  + Class [nicolas/alarcon/testlpic/b]
+  + Class [nicolas/alarcon/testlpic/c]
+  + Fieldref [nicolas/alarcon/testlpic/Boot.a Lnicolas/alarcon/testlpic/b;]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.c J]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.d I]
+  + Fieldref [nicolas/alarcon/testlpic/c.a Lnicolas/alarcon/testlpic/PideNombre;]
+  + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+  + Methodref [nicolas/alarcon/testlpic/PideNombre.findViewById (I)Landroid/view/View;]
+  + Methodref [nicolas/alarcon/testlpic/PideNombre.finish ()V]
+  + Methodref [nicolas/alarcon/testlpic/b.a (ILjava/lang/String;JI)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (ILjava/lang/String;JI)V]
+  + NameAndType [a I]
+  + NameAndType [a Lnicolas/alarcon/testlpic/PideNombre;]
+  + NameAndType [a Lnicolas/alarcon/testlpic/b;]
+  + NameAndType [c J]
+  + NameAndType [d I]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [finish ()V]
+  + NameAndType [getText ()Landroid/text/Editable;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Landroid/text/Editable;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(ILjava/lang/String;JI)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lnicolas/alarcon/testlpic/PideNombre;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [J]
+  + Utf8 [Lnicolas/alarcon/testlpic/PideNombre;]
+  + Utf8 [Lnicolas/alarcon/testlpic/b;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [findViewById]
+  + Utf8 [finish]
+  + Utf8 [getText]
+  + Utf8 [java/lang/Object]
+  + Utf8 [nicolas/alarcon/testlpic/Boot]
+  + Utf8 [nicolas/alarcon/testlpic/PideNombre]
+  + Utf8 [nicolas/alarcon/testlpic/PreguntasLpic]
+  + Utf8 [nicolas/alarcon/testlpic/b]
+  + Utf8 [nicolas/alarcon/testlpic/c]
+  + Utf8 [onClick]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Lnicolas/alarcon/testlpic/PideNombre;
+    Access flags: 0x1010
+      = final synthetic nicolas.alarcon.testlpic.PideNombre a
+
+Methods (count = 2):
+  - Method:       <init>(Lnicolas/alarcon/testlpic/PideNombre;)V
+    Access flags: 0x0
+      = c(nicolas.alarcon.testlpic.PideNombre)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #14
+        + Fieldref [nicolas/alarcon/testlpic/c.a Lnicolas/alarcon/testlpic/PideNombre;]
+      [5] aload_0 v0
+      [6] invokespecial #16
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 43, locals = 3, stack = 6):
+      [0] aload_0 v0
+      [1] getfield #14
+        + Fieldref [nicolas/alarcon/testlpic/c.a Lnicolas/alarcon/testlpic/PideNombre;]
+      [4] ldc #1
+        + Integer [2131296279]
+      [6] invokevirtual #18
+        + Methodref [nicolas/alarcon/testlpic/PideNombre.findViewById (I)Landroid/view/View;]
+      [9] checkcast #3
+        + Class [android/widget/EditText]
+      [12] astore_2 v2
+      [13] getstatic #10
+        + Fieldref [nicolas/alarcon/testlpic/Boot.a Lnicolas/alarcon/testlpic/b;]
+      [16] getstatic #11
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+      [19] aload_2 v2
+      [20] invokevirtual #15
+        + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+      [23] invokevirtual #17
+        + Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+      [26] getstatic #12
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.c J]
+      [29] getstatic #13
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.d I]
+      [32] invokevirtual #20
+        + Methodref [nicolas/alarcon/testlpic/b.a (ILjava/lang/String;JI)V]
+      [35] aload_0 v0
+      [36] getfield #14
+        + Fieldref [nicolas/alarcon/testlpic/c.a Lnicolas/alarcon/testlpic/PideNombre;]
+      [39] invokevirtual #19
+        + Methodref [nicolas/alarcon/testlpic/PideNombre.finish ()V]
+      [42] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: nicolas/alarcon/testlpic/PreguntasLpic
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class nicolas.alarcon.testlpic.PreguntasLpic extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 308):
+  + Integer [2130903042]
+  + Integer [2131099668]
+  + Integer [2131099673]
+  + Integer [2131099674]
+  + Integer [2131099675]
+  + Integer [2131099676]
+  + Integer [2131099677]
+  + Integer [2131099678]
+  + Integer [2131099679]
+  + Integer [2131099680]
+  + Integer [2131099681]
+  + Integer [2131099682]
+  + Integer [2131099683]
+  + Integer [2131099684]
+  + Integer [2131099685]
+  + Integer [2131099686]
+  + Integer [2131099687]
+  + Integer [2131099688]
+  + Integer [2131099689]
+  + Integer [2131099690]
+  + Integer [2131099691]
+  + Integer [2131099692]
+  + Integer [2131099693]
+  + Integer [2131099694]
+  + Integer [2131099695]
+  + Integer [2131099696]
+  + Integer [2131099697]
+  + Integer [2131099698]
+  + Integer [2131099699]
+  + Integer [2131099700]
+  + Integer [2131099701]
+  + Integer [2131099702]
+  + Integer [2131296257]
+  + Integer [2131296269]
+  + Integer [2131296270]
+  + Integer [2131296272]
+  + Integer [2131296273]
+  + Integer [2131296274]
+  + Integer [2131296275]
+  + Integer [2131296276]
+  + Integer [2131296277]
+  + String [1]
+  + String [;]
+  + String [Bien: ]
+  + String [Mal: ]
+  + String [Total: ]
+  + String [nicolas.alarcon.testlpic_preferences]
+  + String [preguntaTematica10]
+  + String [preguntaTematica11]
+  + String [preguntaTematica12]
+  + String [preguntaTematica13]
+  + String [preguntaTematica14]
+  + String [preguntaTematica15]
+  + String [preguntaTematica16]
+  + String [preguntaTematica17]
+  + String [preguntaTematica18]
+  + String [preguntaTematica19]
+  + String [preguntaTematica1Respuesta81]
+  + String [preguntaTematica1Respuesta82]
+  + String [preguntaTematica1Respuesta83]
+  + String [preguntaTematica1Respuesta84]
+  + String [preguntaTematica20]
+  + String [preguntaTematica21]
+  + String [preguntaTematica22]
+  + String [preguntaTematica23]
+  + String [preguntaTematica24]
+  + String [preguntaTematica25]
+  + String [preguntaTematica26]
+  + String [preguntaTematica27]
+  + String [preguntaTematica28]
+  + String [preguntaTematica29]
+  + String [preguntaTematica2Respuesta31]
+  + String [preguntaTematica2Respuesta32]
+  + String [preguntaTematica2Respuesta51]
+  + String [preguntaTematica2Respuesta71]
+  + String [preguntaTematica2Respuesta72]
+  + String [preguntaTematica2Respuesta73]
+  + String [preguntaTematica2Respuesta74]
+  + String [tematica]
+  + Class [android/app/Activity]
+  + Class [android/content/Intent]
+  + Class [android/content/SharedPreferences]
+  + Class [android/widget/Button]
+  + Class [android/widget/CheckBox]
+  + Class [android/widget/TextView]
+  + Class [java/lang/Integer]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Class [java/lang/System]
+  + Class [java/util/Vector]
+  + Class [nicolas/alarcon/testlpic/Boot]
+  + Class [nicolas/alarcon/testlpic/PideNombre]
+  + Class [nicolas/alarcon/testlpic/PreguntasLpic]
+  + Class [nicolas/alarcon/testlpic/b]
+  + Class [nicolas/alarcon/testlpic/d]
+  + Fieldref [nicolas/alarcon/testlpic/Boot.a Lnicolas/alarcon/testlpic/b;]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.b I]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.c J]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.d I]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.e I]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.f Landroid/widget/TextView;]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.g Landroid/widget/TextView;]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.h Landroid/widget/TextView;]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.i Ljava/util/Vector;]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.j I]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.k I]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.l Landroid/widget/Button;]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.m J]
+  + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.n J]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onDestroy ()V]
+  + Methodref [android/app/Activity.onPause ()V]
+  + Methodref [android/app/Activity.onResume ()V]
+  + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/CheckBox.isChecked ()Z]
+  + Methodref [android/widget/CheckBox.setChecked (Z)V]
+  + Methodref [android/widget/TextView.setText (I)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [java/lang/Integer.parseInt (Ljava/lang/String;)I]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/String.split (Ljava/lang/String;)[Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/System.currentTimeMillis ()J]
+  + Methodref [java/util/Vector.elementAt (I)Ljava/lang/Object;]
+  + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.a (I)V]
+  + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.a (Landroid/widget/TextView;Ljava/lang/String;)V]
+  + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+  + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.finish ()V]
+  + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.setContentView (I)V]
+  + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.startActivity (Landroid/content/Intent;)V]
+  + Methodref [nicolas/alarcon/testlpic/b.b (I)Ljava/util/Vector;]
+  + Methodref [nicolas/alarcon/testlpic/d.<init> (Lnicolas/alarcon/testlpic/PreguntasLpic;)V]
+  + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [<init> (Lnicolas/alarcon/testlpic/PreguntasLpic;)V]
+  + NameAndType [a (I)V]
+  + NameAndType [a (Landroid/widget/TextView;Ljava/lang/String;)V]
+  + NameAndType [a I]
+  + NameAndType [a Lnicolas/alarcon/testlpic/b;]
+  + NameAndType [append (I)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b (I)Ljava/util/Vector;]
+  + NameAndType [b I]
+  + NameAndType [c J]
+  + NameAndType [currentTimeMillis ()J]
+  + NameAndType [d I]
+  + NameAndType [e I]
+  + NameAndType [elementAt (I)Ljava/lang/Object;]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [f Landroid/widget/TextView;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [finish ()V]
+  + NameAndType [g Landroid/widget/TextView;]
+  + NameAndType [getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + NameAndType [getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [h Landroid/widget/TextView;]
+  + NameAndType [i Ljava/util/Vector;]
+  + NameAndType [isChecked ()Z]
+  + NameAndType [j I]
+  + NameAndType [k I]
+  + NameAndType [l Landroid/widget/Button;]
+  + NameAndType [m J]
+  + NameAndType [n J]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onDestroy ()V]
+  + NameAndType [onPause ()V]
+  + NameAndType [onResume ()V]
+  + NameAndType [parseInt (Ljava/lang/String;)I]
+  + NameAndType [setChecked (Z)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setText (I)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [split (Ljava/lang/String;)[Ljava/lang/String;]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()J]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/Object;]
+  + Utf8 [(I)Ljava/lang/StringBuilder;]
+  + Utf8 [(I)Ljava/util/Vector;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/widget/TextView;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)[Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Lnicolas/alarcon/testlpic/PreguntasLpic;)V]
+  + Utf8 [(Z)V]
+  + Utf8 [1]
+  + Utf8 [;]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Bien: ]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [J]
+  + Utf8 [Landroid/widget/Button;]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [Ljava/util/Vector;]
+  + Utf8 [Lnicolas/alarcon/testlpic/b;]
+  + Utf8 [Mal: ]
+  + Utf8 [StackMapTable]
+  + Utf8 [Total: ]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/content/SharedPreferences]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/CheckBox]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [currentTimeMillis]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [elementAt]
+  + Utf8 [equals]
+  + Utf8 [f]
+  + Utf8 [findViewById]
+  + Utf8 [finish]
+  + Utf8 [g]
+  + Utf8 [getSharedPreferences]
+  + Utf8 [getString]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [isChecked]
+  + Utf8 [j]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/lang/System]
+  + Utf8 [java/util/Vector]
+  + Utf8 [k]
+  + Utf8 [l]
+  + Utf8 [m]
+  + Utf8 [n]
+  + Utf8 [nicolas.alarcon.testlpic_preferences]
+  + Utf8 [nicolas/alarcon/testlpic/Boot]
+  + Utf8 [nicolas/alarcon/testlpic/PideNombre]
+  + Utf8 [nicolas/alarcon/testlpic/PreguntasLpic]
+  + Utf8 [nicolas/alarcon/testlpic/b]
+  + Utf8 [nicolas/alarcon/testlpic/d]
+  + Utf8 [onCreate]
+  + Utf8 [onDestroy]
+  + Utf8 [onPause]
+  + Utf8 [onResume]
+  + Utf8 [parseInt]
+  + Utf8 [preguntaTematica10]
+  + Utf8 [preguntaTematica11]
+  + Utf8 [preguntaTematica12]
+  + Utf8 [preguntaTematica13]
+  + Utf8 [preguntaTematica14]
+  + Utf8 [preguntaTematica15]
+  + Utf8 [preguntaTematica16]
+  + Utf8 [preguntaTematica17]
+  + Utf8 [preguntaTematica18]
+  + Utf8 [preguntaTematica19]
+  + Utf8 [preguntaTematica1Respuesta81]
+  + Utf8 [preguntaTematica1Respuesta82]
+  + Utf8 [preguntaTematica1Respuesta83]
+  + Utf8 [preguntaTematica1Respuesta84]
+  + Utf8 [preguntaTematica20]
+  + Utf8 [preguntaTematica21]
+  + Utf8 [preguntaTematica22]
+  + Utf8 [preguntaTematica23]
+  + Utf8 [preguntaTematica24]
+  + Utf8 [preguntaTematica25]
+  + Utf8 [preguntaTematica26]
+  + Utf8 [preguntaTematica27]
+  + Utf8 [preguntaTematica28]
+  + Utf8 [preguntaTematica29]
+  + Utf8 [preguntaTematica2Respuesta31]
+  + Utf8 [preguntaTematica2Respuesta32]
+  + Utf8 [preguntaTematica2Respuesta51]
+  + Utf8 [preguntaTematica2Respuesta71]
+  + Utf8 [preguntaTematica2Respuesta72]
+  + Utf8 [preguntaTematica2Respuesta73]
+  + Utf8 [preguntaTematica2Respuesta74]
+  + Utf8 [setChecked]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setText]
+  + Utf8 [siguientePregunta]
+  + Utf8 [split]
+  + Utf8 [startActivity]
+  + Utf8 [tematica]
+  + Utf8 [toString]
+
+Fields (count = 14):
+  + Field:        i Ljava/util/Vector;
+    Access flags: 0x2
+      = private java.util.Vector i
+  + Field:        j I
+    Access flags: 0x2
+      = private int j
+  + Field:        k I
+    Access flags: 0x2
+      = private int k
+  + Field:        a I
+    Access flags: 0x8
+      = static int a
+  + Field:        b I
+    Access flags: 0x8
+      = static int b
+  + Field:        c J
+    Access flags: 0x8
+      = static long c
+  + Field:        d I
+    Access flags: 0x8
+      = static int d
+  + Field:        e I
+    Access flags: 0x8
+      = static int e
+  + Field:        l Landroid/widget/Button;
+    Access flags: 0x2
+      = private android.widget.Button l
+  + Field:        m J
+    Access flags: 0x2
+      = private long m
+  + Field:        n J
+    Access flags: 0x2
+      = private long n
+  + Field:        f Landroid/widget/TextView;
+    Access flags: 0x0
+      = android.widget.TextView f
+  + Field:        g Landroid/widget/TextView;
+    Access flags: 0x0
+      = android.widget.TextView g
+  + Field:        h Landroid/widget/TextView;
+    Access flags: 0x0
+      = android.widget.TextView h
+
+Methods (count = 9):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public PreguntasLpic()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #111
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] aload_0 v0
+      [5] iconst_0
+      [6] putfield #106
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.j I]
+      [9] aload_0 v0
+      [10] iconst_0
+      [11] putfield #107
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.k I]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 85, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #112
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903042]
+      [8] invokevirtual #136
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #47
+        + String [nicolas.alarcon.testlpic_preferences]
+      [14] iconst_0
+      [15] invokevirtual #135
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+      [18] astore_2 v2
+      [19] aload_2 v2
+      [20] ldc #79
+        + String [tematica]
+      [22] ldc #42
+        + String [1]
+      [24] invokeinterface #140
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [29] invokestatic #122
+        + Methodref [java/lang/Integer.parseInt (Ljava/lang/String;)I]
+      [32] istore_3 v3
+      [33] aload_0 v0
+      [34] getstatic #96
+        + Fieldref [nicolas/alarcon/testlpic/Boot.a Lnicolas/alarcon/testlpic/b;]
+      [37] iload_3 v3
+      [38] invokevirtual #138
+        + Methodref [nicolas/alarcon/testlpic/b.b (I)Ljava/util/Vector;]
+      [41] putfield #105
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.i Ljava/util/Vector;]
+      [44] aload_0 v0
+      [45] invokestatic #129
+        + Methodref [java/lang/System.currentTimeMillis ()J]
+      [48] putfield #109
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.m J]
+      [51] aload_0 v0
+      [52] iconst_0
+      [53] invokevirtual #131
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.a (I)V]
+      [56] aload_0 v0
+      [57] aload_0 v0
+      [58] ldc #35
+        + Integer [2131296270]
+      [60] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [63] checkcast #83
+        + Class [android/widget/Button]
+      [66] putfield #108
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.l Landroid/widget/Button;]
+      [69] aload_0 v0
+      [70] getfield #108
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.l Landroid/widget/Button;]
+      [73] new #95
+        + Class [nicolas/alarcon/testlpic/d]
+      [76] dup
+      [77] aload_0 v0
+      [78] invokespecial #139
+        + Methodref [nicolas/alarcon/testlpic/d.<init> (Lnicolas/alarcon/testlpic/PreguntasLpic;)V]
+      [81] invokevirtual #117
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [84] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onPause()V
+    Access flags: 0x4
+      = protected void onPause()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #114
+        + Methodref [android/app/Activity.onPause ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onResume()V
+    Access flags: 0x4
+      = protected void onResume()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #115
+        + Methodref [android/app/Activity.onResume ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onDestroy()V
+    Access flags: 0x4
+      = protected void onDestroy()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #113
+        + Methodref [android/app/Activity.onDestroy ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       siguientePregunta()V
+    Access flags: 0x1
+      = public void siguientePregunta()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 300, locals = 8, stack = 6):
+      [0] aload_0 v0
+      [1] ldc #38
+        + Integer [2131296274]
+      [3] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [6] checkcast #84
+        + Class [android/widget/CheckBox]
+      [9] astore_1 v1
+      [10] aload_0 v0
+      [11] ldc #39
+        + Integer [2131296275]
+      [13] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [16] checkcast #84
+        + Class [android/widget/CheckBox]
+      [19] astore_2 v2
+      [20] aload_0 v0
+      [21] ldc #40
+        + Integer [2131296276]
+      [23] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [26] checkcast #84
+        + Class [android/widget/CheckBox]
+      [29] astore_3 v3
+      [30] aload_0 v0
+      [31] ldc #41
+        + Integer [2131296277]
+      [33] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [36] checkcast #84
+        + Class [android/widget/CheckBox]
+      [39] astore v4
+      [41] iconst_0
+      [42] istore v5
+      [44] aload_0 v0
+      [45] dup
+      [46] getfield #107
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.k I]
+      [49] iconst_1
+      [50] iadd
+      [51] putfield #107
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.k I]
+      [54] aload_1 v1
+      [55] invokevirtual #118
+        + Methodref [android/widget/CheckBox.isChecked ()Z]
+      [58] ifeq +9 (target=67)
+      [61] iconst_1
+      [62] istore v5
+      [64] goto +40 (target=104)
+      [67] aload_2 v2
+      [68] invokevirtual #118
+        + Methodref [android/widget/CheckBox.isChecked ()Z]
+      [71] ifeq +9 (target=80)
+      [74] iconst_2
+      [75] istore v5
+      [77] goto +27 (target=104)
+      [80] aload_3 v3
+      [81] invokevirtual #118
+        + Methodref [android/widget/CheckBox.isChecked ()Z]
+      [84] ifeq +9 (target=93)
+      [87] iconst_3
+      [88] istore v5
+      [90] goto +14 (target=104)
+      [93] aload v4
+      [95] invokevirtual #118
+        + Methodref [android/widget/CheckBox.isChecked ()Z]
+      [98] ifeq +6 (target=104)
+      [101] iconst_4
+      [102] istore v5
+      [104] aload_1 v1
+      [105] iconst_0
+      [106] invokevirtual #119
+        + Methodref [android/widget/CheckBox.setChecked (Z)V]
+      [109] aload_2 v2
+      [110] iconst_0
+      [111] invokevirtual #119
+        + Methodref [android/widget/CheckBox.setChecked (Z)V]
+      [114] aload_3 v3
+      [115] iconst_0
+      [116] invokevirtual #119
+        + Methodref [android/widget/CheckBox.setChecked (Z)V]
+      [119] aload v4
+      [121] iconst_0
+      [122] invokevirtual #119
+        + Methodref [android/widget/CheckBox.setChecked (Z)V]
+      [125] aload_0 v0
+      [126] getfield #106
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.j I]
+      [129] iload v5
+      [131] ificmpne +11 (target=142)
+      [134] getstatic #97
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+      [137] iconst_1
+      [138] iadd
+      [139] putstatic #97
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+      [142] getstatic #101
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.e I]
+      [145] iconst_1
+      [146] iadd
+      [147] putstatic #101
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.e I]
+      [150] aload_0 v0
+      [151] getfield #106
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.j I]
+      [154] iload v5
+      [156] ificmpge +11 (target=167)
+      [159] getstatic #98
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.b I]
+      [162] iconst_1
+      [163] iadd
+      [164] putstatic #98
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.b I]
+      [167] aload_0 v0
+      [168] getfield #106
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.j I]
+      [171] iload v5
+      [173] ificmple +11 (target=184)
+      [176] getstatic #98
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.b I]
+      [179] iconst_1
+      [180] iadd
+      [181] putstatic #98
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.b I]
+      [184] aload_0 v0
+      [185] getfield #107
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.k I]
+      [188] bipush 10
+      [190] ificmpge +14 (target=204)
+      [193] aload_0 v0
+      [194] aload_0 v0
+      [195] getfield #107
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.k I]
+      [198] invokevirtual #131
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.a (I)V]
+      [201] goto +98 (target=299)
+      [204] aload_0 v0
+      [205] invokestatic #129
+        + Methodref [java/lang/System.currentTimeMillis ()J]
+      [208] putfield #110
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.n J]
+      [211] getstatic #97
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+      [214] iconst_1
+      [215] iadd
+      [216] i2l
+      [217] aload_0 v0
+      [218] getfield #110
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.n J]
+      [221] aload_0 v0
+      [222] getfield #109
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.m J]
+      [225] lsub
+      [226] ldiv
+      [227] l2i
+      [228] putstatic #97
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+      [231] getstatic #97
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+      [234] ifge +11 (target=245)
+      [237] getstatic #97
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+      [240] iconst_m1
+      [241] iadd
+      [242] putstatic #97
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+      [245] aload_0 v0
+      [246] ldc #47
+        + String [nicolas.alarcon.testlpic_preferences]
+      [248] iconst_0
+      [249] invokevirtual #135
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+      [252] astore v6
+      [254] aload v6
+      [256] ldc #79
+        + String [tematica]
+      [258] ldc #42
+        + String [1]
+      [260] invokeinterface #140
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [265] invokestatic #122
+        + Methodref [java/lang/Integer.parseInt (Ljava/lang/String;)I]
+      [268] putstatic #100
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.d I]
+      [271] invokestatic #129
+        + Methodref [java/lang/System.currentTimeMillis ()J]
+      [274] putstatic #99
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.c J]
+      [277] new #81
+        + Class [android/content/Intent]
+      [280] dup
+      [281] aload_0 v0
+      [282] ldc #92
+        + Class [nicolas/alarcon/testlpic/PideNombre]
+      [284] invokespecial #116
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [287] astore v7
+      [289] aload_0 v0
+      [290] aload v7
+      [292] invokevirtual #137
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.startActivity (Landroid/content/Intent;)V]
+      [295] aload_0 v0
+      [296] invokevirtual #134
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.finish ()V]
+      [299] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 10):
+        - [67] Var: [a:nicolas/alarcon/testlpic/PreguntasLpic][a:android/widget/CheckBox][a:android/widget/CheckBox][a:android/widget/CheckBox][a:android/widget/CheckBox][i], Stack: 
+        - [80] Var: ..., Stack: (empty)
+        - [93] Var: ..., Stack: (empty)
+        - [104] Var: ..., Stack: (empty)
+        - [142] Var: ..., Stack: (empty)
+        - [167] Var: ..., Stack: (empty)
+        - [184] Var: ..., Stack: (empty)
+        - [204] Var: ..., Stack: (empty)
+        - [245] Var: ..., Stack: (empty)
+        - [299] Var: ..., Stack: (empty)
+  + Method:       a(I)V
+    Access flags: 0x1
+      = public void a(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 126, locals = 8, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #105
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.i Ljava/util/Vector;]
+      [4] iload_1 v1
+      [5] invokevirtual #130
+        + Methodref [java/util/Vector.elementAt (I)Ljava/lang/Object;]
+      [8] checkcast #87
+        + Class [java/lang/String]
+      [11] ldc #43
+        + String [;]
+      [13] invokevirtual #124
+        + Methodref [java/lang/String.split (Ljava/lang/String;)[Ljava/lang/String;]
+      [16] astore_2 v2
+      [17] aload_0 v0
+      [18] ldc #34
+        + Integer [2131296269]
+      [20] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [23] checkcast #85
+        + Class [android/widget/TextView]
+      [26] astore_3 v3
+      [27] aload_0 v0
+      [28] aload_3 v3
+      [29] aload_2 v2
+      [30] iconst_0
+      [31] aaload
+      [32] invokevirtual #132
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.a (Landroid/widget/TextView;Ljava/lang/String;)V]
+      [35] aload_0 v0
+      [36] ldc #38
+        + Integer [2131296274]
+      [38] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [41] checkcast #84
+        + Class [android/widget/CheckBox]
+      [44] astore v4
+      [46] aload_0 v0
+      [47] aload v4
+      [49] aload_2 v2
+      [50] iconst_1
+      [51] aaload
+      [52] invokevirtual #132
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.a (Landroid/widget/TextView;Ljava/lang/String;)V]
+      [55] aload_0 v0
+      [56] ldc #39
+        + Integer [2131296275]
+      [58] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [61] checkcast #84
+        + Class [android/widget/CheckBox]
+      [64] astore v5
+      [66] aload_0 v0
+      [67] aload v5
+      [69] aload_2 v2
+      [70] iconst_2
+      [71] aaload
+      [72] invokevirtual #132
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.a (Landroid/widget/TextView;Ljava/lang/String;)V]
+      [75] aload_0 v0
+      [76] ldc #40
+        + Integer [2131296276]
+      [78] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [81] checkcast #84
+        + Class [android/widget/CheckBox]
+      [84] astore v6
+      [86] aload_0 v0
+      [87] aload v6
+      [89] aload_2 v2
+      [90] iconst_3
+      [91] aaload
+      [92] invokevirtual #132
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.a (Landroid/widget/TextView;Ljava/lang/String;)V]
+      [95] aload_0 v0
+      [96] ldc #41
+        + Integer [2131296277]
+      [98] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [101] checkcast #84
+        + Class [android/widget/CheckBox]
+      [104] astore v7
+      [106] aload_0 v0
+      [107] aload v7
+      [109] aload_2 v2
+      [110] iconst_4
+      [111] aaload
+      [112] invokevirtual #132
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.a (Landroid/widget/TextView;Ljava/lang/String;)V]
+      [115] aload_0 v0
+      [116] aload_2 v2
+      [117] iconst_5
+      [118] aaload
+      [119] invokestatic #122
+        + Methodref [java/lang/Integer.parseInt (Ljava/lang/String;)I]
+      [122] putfield #106
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.j I]
+      [125] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/widget/TextView;Ljava/lang/String;)V
+    Access flags: 0x1
+      = public void a(android.widget.TextView,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 687, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] aload_0 v0
+      [2] ldc #33
+        + Integer [2131296257]
+      [4] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [7] checkcast #85
+        + Class [android/widget/TextView]
+      [10] putfield #102
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.f Landroid/widget/TextView;]
+      [13] aload_0 v0
+      [14] getfield #102
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.f Landroid/widget/TextView;]
+      [17] new #88
+        + Class [java/lang/StringBuilder]
+      [20] dup
+      [21] invokespecial #125
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [24] ldc #44
+        + String [Bien: ]
+      [26] invokevirtual #127
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [29] getstatic #97
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+      [32] invokevirtual #126
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [35] invokevirtual #128
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [38] invokevirtual #121
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [41] aload_0 v0
+      [42] aload_0 v0
+      [43] ldc #36
+        + Integer [2131296272]
+      [45] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [48] checkcast #85
+        + Class [android/widget/TextView]
+      [51] putfield #103
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.g Landroid/widget/TextView;]
+      [54] aload_0 v0
+      [55] getfield #103
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.g Landroid/widget/TextView;]
+      [58] new #88
+        + Class [java/lang/StringBuilder]
+      [61] dup
+      [62] invokespecial #125
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [65] ldc #45
+        + String [Mal: ]
+      [67] invokevirtual #127
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [70] getstatic #98
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.b I]
+      [73] invokevirtual #126
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [76] invokevirtual #128
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [79] invokevirtual #121
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [82] aload_0 v0
+      [83] aload_0 v0
+      [84] ldc #37
+        + Integer [2131296273]
+      [86] invokevirtual #133
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.findViewById (I)Landroid/view/View;]
+      [89] checkcast #85
+        + Class [android/widget/TextView]
+      [92] putfield #104
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.h Landroid/widget/TextView;]
+      [95] aload_0 v0
+      [96] getfield #104
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.h Landroid/widget/TextView;]
+      [99] new #88
+        + Class [java/lang/StringBuilder]
+      [102] dup
+      [103] invokespecial #125
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [106] ldc #46
+        + String [Total: ]
+      [108] invokevirtual #127
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [111] getstatic #101
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.e I]
+      [114] invokevirtual #126
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [117] invokevirtual #128
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [120] invokevirtual #121
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [123] aload_2 v2
+      [124] ldc #48
+        + String [preguntaTematica10]
+      [126] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [129] ifeq +12 (target=141)
+      [132] aload_1 v1
+      [133] ldc #2
+        + Integer [2131099668]
+      [135] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [138] goto +548 (target=686)
+      [141] aload_2 v2
+      [142] ldc #49
+        + String [preguntaTematica11]
+      [144] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [147] ifeq +12 (target=159)
+      [150] aload_1 v1
+      [151] ldc #3
+        + Integer [2131099673]
+      [153] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [156] goto +530 (target=686)
+      [159] aload_2 v2
+      [160] ldc #50
+        + String [preguntaTematica12]
+      [162] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [165] ifeq +12 (target=177)
+      [168] aload_1 v1
+      [169] ldc #4
+        + Integer [2131099674]
+      [171] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [174] goto +512 (target=686)
+      [177] aload_2 v2
+      [178] ldc #51
+        + String [preguntaTematica13]
+      [180] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [183] ifeq +12 (target=195)
+      [186] aload_1 v1
+      [187] ldc #5
+        + Integer [2131099675]
+      [189] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [192] goto +494 (target=686)
+      [195] aload_2 v2
+      [196] ldc #52
+        + String [preguntaTematica14]
+      [198] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [201] ifeq +12 (target=213)
+      [204] aload_1 v1
+      [205] ldc #6
+        + Integer [2131099676]
+      [207] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [210] goto +476 (target=686)
+      [213] aload_2 v2
+      [214] ldc #53
+        + String [preguntaTematica15]
+      [216] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [219] ifeq +12 (target=231)
+      [222] aload_1 v1
+      [223] ldc #7
+        + Integer [2131099677]
+      [225] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [228] goto +458 (target=686)
+      [231] aload_2 v2
+      [232] ldc #54
+        + String [preguntaTematica16]
+      [234] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [237] ifeq +12 (target=249)
+      [240] aload_1 v1
+      [241] ldc #8
+        + Integer [2131099678]
+      [243] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [246] goto +440 (target=686)
+      [249] aload_2 v2
+      [250] ldc #55
+        + String [preguntaTematica17]
+      [252] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [255] ifeq +12 (target=267)
+      [258] aload_1 v1
+      [259] ldc #9
+        + Integer [2131099679]
+      [261] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [264] goto +422 (target=686)
+      [267] aload_2 v2
+      [268] ldc #56
+        + String [preguntaTematica18]
+      [270] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [273] ifeq +12 (target=285)
+      [276] aload_1 v1
+      [277] ldc #10
+        + Integer [2131099680]
+      [279] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [282] goto +404 (target=686)
+      [285] aload_2 v2
+      [286] ldc #57
+        + String [preguntaTematica19]
+      [288] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [291] ifeq +12 (target=303)
+      [294] aload_1 v1
+      [295] ldc #11
+        + Integer [2131099681]
+      [297] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [300] goto +386 (target=686)
+      [303] aload_2 v2
+      [304] ldc #58
+        + String [preguntaTematica1Respuesta81]
+      [306] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [309] ifeq +12 (target=321)
+      [312] aload_1 v1
+      [313] ldc #12
+        + Integer [2131099682]
+      [315] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [318] goto +368 (target=686)
+      [321] aload_2 v2
+      [322] ldc #59
+        + String [preguntaTematica1Respuesta82]
+      [324] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [327] ifeq +12 (target=339)
+      [330] aload_1 v1
+      [331] ldc #13
+        + Integer [2131099683]
+      [333] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [336] goto +350 (target=686)
+      [339] aload_2 v2
+      [340] ldc #60
+        + String [preguntaTematica1Respuesta83]
+      [342] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [345] ifeq +12 (target=357)
+      [348] aload_1 v1
+      [349] ldc #14
+        + Integer [2131099684]
+      [351] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [354] goto +332 (target=686)
+      [357] aload_2 v2
+      [358] ldc #61
+        + String [preguntaTematica1Respuesta84]
+      [360] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [363] ifeq +12 (target=375)
+      [366] aload_1 v1
+      [367] ldc #15
+        + Integer [2131099685]
+      [369] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [372] goto +314 (target=686)
+      [375] aload_2 v2
+      [376] ldc #62
+        + String [preguntaTematica20]
+      [378] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [381] ifeq +12 (target=393)
+      [384] aload_1 v1
+      [385] ldc #16
+        + Integer [2131099686]
+      [387] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [390] goto +296 (target=686)
+      [393] aload_2 v2
+      [394] ldc #63
+        + String [preguntaTematica21]
+      [396] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [399] ifeq +12 (target=411)
+      [402] aload_1 v1
+      [403] ldc #17
+        + Integer [2131099687]
+      [405] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [408] goto +278 (target=686)
+      [411] aload_2 v2
+      [412] ldc #64
+        + String [preguntaTematica22]
+      [414] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [417] ifeq +12 (target=429)
+      [420] aload_1 v1
+      [421] ldc #18
+        + Integer [2131099688]
+      [423] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [426] goto +260 (target=686)
+      [429] aload_2 v2
+      [430] ldc #65
+        + String [preguntaTematica23]
+      [432] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [435] ifeq +12 (target=447)
+      [438] aload_1 v1
+      [439] ldc #19
+        + Integer [2131099689]
+      [441] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [444] goto +242 (target=686)
+      [447] aload_2 v2
+      [448] ldc #66
+        + String [preguntaTematica24]
+      [450] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [453] ifeq +12 (target=465)
+      [456] aload_1 v1
+      [457] ldc #20
+        + Integer [2131099690]
+      [459] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [462] goto +224 (target=686)
+      [465] aload_2 v2
+      [466] ldc #67
+        + String [preguntaTematica25]
+      [468] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [471] ifeq +12 (target=483)
+      [474] aload_1 v1
+      [475] ldc #21
+        + Integer [2131099691]
+      [477] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [480] goto +206 (target=686)
+      [483] aload_2 v2
+      [484] ldc #68
+        + String [preguntaTematica26]
+      [486] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [489] ifeq +12 (target=501)
+      [492] aload_1 v1
+      [493] ldc #22
+        + Integer [2131099692]
+      [495] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [498] goto +188 (target=686)
+      [501] aload_2 v2
+      [502] ldc #69
+        + String [preguntaTematica27]
+      [504] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [507] ifeq +12 (target=519)
+      [510] aload_1 v1
+      [511] ldc #23
+        + Integer [2131099693]
+      [513] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [516] goto +170 (target=686)
+      [519] aload_2 v2
+      [520] ldc #70
+        + String [preguntaTematica28]
+      [522] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [525] ifeq +12 (target=537)
+      [528] aload_1 v1
+      [529] ldc #24
+        + Integer [2131099694]
+      [531] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [534] goto +152 (target=686)
+      [537] aload_2 v2
+      [538] ldc #71
+        + String [preguntaTematica29]
+      [540] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [543] ifeq +12 (target=555)
+      [546] aload_1 v1
+      [547] ldc #25
+        + Integer [2131099695]
+      [549] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [552] goto +134 (target=686)
+      [555] aload_2 v2
+      [556] ldc #72
+        + String [preguntaTematica2Respuesta31]
+      [558] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [561] ifeq +12 (target=573)
+      [564] aload_1 v1
+      [565] ldc #26
+        + Integer [2131099696]
+      [567] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [570] goto +116 (target=686)
+      [573] aload_2 v2
+      [574] ldc #73
+        + String [preguntaTematica2Respuesta32]
+      [576] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [579] ifeq +12 (target=591)
+      [582] aload_1 v1
+      [583] ldc #27
+        + Integer [2131099697]
+      [585] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [588] goto +98 (target=686)
+      [591] aload_2 v2
+      [592] ldc #74
+        + String [preguntaTematica2Respuesta51]
+      [594] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [597] ifeq +12 (target=609)
+      [600] aload_1 v1
+      [601] ldc #28
+        + Integer [2131099698]
+      [603] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [606] goto +80 (target=686)
+      [609] aload_2 v2
+      [610] ldc #75
+        + String [preguntaTematica2Respuesta71]
+      [612] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [615] ifeq +12 (target=627)
+      [618] aload_1 v1
+      [619] ldc #29
+        + Integer [2131099699]
+      [621] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [624] goto +62 (target=686)
+      [627] aload_2 v2
+      [628] ldc #76
+        + String [preguntaTematica2Respuesta72]
+      [630] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [633] ifeq +12 (target=645)
+      [636] aload_1 v1
+      [637] ldc #30
+        + Integer [2131099700]
+      [639] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [642] goto +44 (target=686)
+      [645] aload_2 v2
+      [646] ldc #77
+        + String [preguntaTematica2Respuesta73]
+      [648] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [651] ifeq +12 (target=663)
+      [654] aload_1 v1
+      [655] ldc #31
+        + Integer [2131099701]
+      [657] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [660] goto +26 (target=686)
+      [663] aload_2 v2
+      [664] ldc #78
+        + String [preguntaTematica2Respuesta74]
+      [666] invokevirtual #123
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [669] ifeq +12 (target=681)
+      [672] aload_1 v1
+      [673] ldc #32
+        + Integer [2131099702]
+      [675] invokevirtual #120
+        + Methodref [android/widget/TextView.setText (I)V]
+      [678] goto +8 (target=686)
+      [681] aload_1 v1
+      [682] aload_2 v2
+      [683] invokevirtual #121
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [686] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 32):
+        - [141] Var: ..., Stack: (empty)
+        - [159] Var: ..., Stack: (empty)
+        - [177] Var: ..., Stack: (empty)
+        - [195] Var: ..., Stack: (empty)
+        - [213] Var: ..., Stack: (empty)
+        - [231] Var: ..., Stack: (empty)
+        - [249] Var: ..., Stack: (empty)
+        - [267] Var: ..., Stack: (empty)
+        - [285] Var: ..., Stack: (empty)
+        - [303] Var: ..., Stack: (empty)
+        - [321] Var: ..., Stack: (empty)
+        - [339] Var: ..., Stack: (empty)
+        - [357] Var: ..., Stack: (empty)
+        - [375] Var: ..., Stack: (empty)
+        - [393] Var: ..., Stack: (empty)
+        - [411] Var: ..., Stack: (empty)
+        - [429] Var: ..., Stack: (empty)
+        - [447] Var: ..., Stack: (empty)
+        - [465] Var: ..., Stack: (empty)
+        - [483] Var: ..., Stack: (empty)
+        - [501] Var: ..., Stack: (empty)
+        - [519] Var: ..., Stack: (empty)
+        - [537] Var: ..., Stack: (empty)
+        - [555] Var: ..., Stack: (empty)
+        - [573] Var: ..., Stack: (empty)
+        - [591] Var: ..., Stack: (empty)
+        - [609] Var: ..., Stack: (empty)
+        - [627] Var: ..., Stack: (empty)
+        - [645] Var: ..., Stack: (empty)
+        - [663] Var: ..., Stack: (empty)
+        - [681] Var: ..., Stack: (empty)
+        - [686] Var: ..., Stack: (empty)
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 0, stack = 2):
+      [0] iconst_0
+      [1] putstatic #97
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.a I]
+      [4] iconst_0
+      [5] putstatic #98
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.b I]
+      [8] lconst_0
+      [9] putstatic #99
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.c J]
+      [12] iconst_0
+      [13] putstatic #100
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.d I]
+      [16] iconst_0
+      [17] putstatic #101
+        + Fieldref [nicolas/alarcon/testlpic/PreguntasLpic.e I]
+      [20] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: nicolas/alarcon/testlpic/d
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class nicolas.alarcon.testlpic.d extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 24):
+  + Class [android/view/View$OnClickListener]
+  + Class [java/lang/Object]
+  + Class [nicolas/alarcon/testlpic/PreguntasLpic]
+  + Class [nicolas/alarcon/testlpic/d]
+  + Fieldref [nicolas/alarcon/testlpic/d.a Lnicolas/alarcon/testlpic/PreguntasLpic;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.siguientePregunta ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lnicolas/alarcon/testlpic/PreguntasLpic;]
+  + NameAndType [siguientePregunta ()V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lnicolas/alarcon/testlpic/PreguntasLpic;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lnicolas/alarcon/testlpic/PreguntasLpic;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [java/lang/Object]
+  + Utf8 [nicolas/alarcon/testlpic/PreguntasLpic]
+  + Utf8 [nicolas/alarcon/testlpic/d]
+  + Utf8 [onClick]
+  + Utf8 [siguientePregunta]
+
+Fields (count = 1):
+  + Field:        a Lnicolas/alarcon/testlpic/PreguntasLpic;
+    Access flags: 0x1010
+      = final synthetic nicolas.alarcon.testlpic.PreguntasLpic a
+
+Methods (count = 2):
+  - Method:       <init>(Lnicolas/alarcon/testlpic/PreguntasLpic;)V
+    Access flags: 0x0
+      = d(nicolas.alarcon.testlpic.PreguntasLpic)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [nicolas/alarcon/testlpic/d.a Lnicolas/alarcon/testlpic/PreguntasLpic;]
+      [5] aload_0 v0
+      [6] invokespecial #6
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 2, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [nicolas/alarcon/testlpic/d.a Lnicolas/alarcon/testlpic/PreguntasLpic;]
+      [4] invokevirtual #7
+        + Methodref [nicolas/alarcon/testlpic/PreguntasLpic.siguientePregunta ()V]
+      [7] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: nicolas/alarcon/testlpic/Puntuaciones
+  Superclass:    android/app/ListActivity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class nicolas.alarcon.testlpic.Puntuaciones extends android.app.ListActivity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 61):
+  + Integer [2130903045]
+  + String [1]
+  + String [nicolas.alarcon.testlpic_preferences]
+  + String [tematica]
+  + Class [android/app/ListActivity]
+  + Class [android/content/SharedPreferences]
+  + Class [java/lang/Integer]
+  + Class [nicolas/alarcon/testlpic/Boot]
+  + Class [nicolas/alarcon/testlpic/Puntuaciones]
+  + Class [nicolas/alarcon/testlpic/a]
+  + Class [nicolas/alarcon/testlpic/b]
+  + Fieldref [nicolas/alarcon/testlpic/Boot.a Lnicolas/alarcon/testlpic/b;]
+  + Methodref [android/app/ListActivity.<init> ()V]
+  + Methodref [android/app/ListActivity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [java/lang/Integer.parseInt (Ljava/lang/String;)I]
+  + Methodref [nicolas/alarcon/testlpic/Puntuaciones.getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + Methodref [nicolas/alarcon/testlpic/Puntuaciones.setContentView (I)V]
+  + Methodref [nicolas/alarcon/testlpic/Puntuaciones.setListAdapter (Landroid/widget/ListAdapter;)V]
+  + Methodref [nicolas/alarcon/testlpic/a.<init> (Landroid/app/Activity;Ljava/util/Vector;)V]
+  + Methodref [nicolas/alarcon/testlpic/b.a (I)Ljava/util/Vector;]
+  + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/app/Activity;Ljava/util/Vector;)V]
+  + NameAndType [a (I)Ljava/util/Vector;]
+  + NameAndType [a Lnicolas/alarcon/testlpic/b;]
+  + NameAndType [getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + NameAndType [getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [parseInt (Ljava/lang/String;)I]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setListAdapter (Landroid/widget/ListAdapter;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/util/Vector;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/app/Activity;Ljava/util/Vector;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/widget/ListAdapter;)V]
+  + Utf8 [(Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [1]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lnicolas/alarcon/testlpic/b;]
+  + Utf8 [a]
+  + Utf8 [android/app/ListActivity]
+  + Utf8 [android/content/SharedPreferences]
+  + Utf8 [getSharedPreferences]
+  + Utf8 [getString]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [nicolas.alarcon.testlpic_preferences]
+  + Utf8 [nicolas/alarcon/testlpic/Boot]
+  + Utf8 [nicolas/alarcon/testlpic/Puntuaciones]
+  + Utf8 [nicolas/alarcon/testlpic/a]
+  + Utf8 [nicolas/alarcon/testlpic/b]
+  + Utf8 [onCreate]
+  + Utf8 [parseInt]
+  + Utf8 [setContentView]
+  + Utf8 [setListAdapter]
+  + Utf8 [tematica]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Puntuaciones()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #13
+        + Methodref [android/app/ListActivity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 53, locals = 4, stack = 6):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #14
+        + Methodref [android/app/ListActivity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903045]
+      [8] invokevirtual #17
+        + Methodref [nicolas/alarcon/testlpic/Puntuaciones.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #3
+        + String [nicolas.alarcon.testlpic_preferences]
+      [14] iconst_0
+      [15] invokevirtual #16
+        + Methodref [nicolas/alarcon/testlpic/Puntuaciones.getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+      [18] astore_2 v2
+      [19] aload_2 v2
+      [20] ldc #4
+        + String [tematica]
+      [22] ldc #2
+        + String [1]
+      [24] invokeinterface #21
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [29] invokestatic #15
+        + Methodref [java/lang/Integer.parseInt (Ljava/lang/String;)I]
+      [32] istore_3 v3
+      [33] aload_0 v0
+      [34] new #10
+        + Class [nicolas/alarcon/testlpic/a]
+      [37] dup
+      [38] aload_0 v0
+      [39] getstatic #12
+        + Fieldref [nicolas/alarcon/testlpic/Boot.a Lnicolas/alarcon/testlpic/b;]
+      [42] iload_3 v3
+      [43] invokevirtual #20
+        + Methodref [nicolas/alarcon/testlpic/b.a (I)Ljava/util/Vector;]
+      [46] invokespecial #19
+        + Methodref [nicolas/alarcon/testlpic/a.<init> (Landroid/app/Activity;Ljava/util/Vector;)V]
+      [49] invokevirtual #18
+        + Methodref [nicolas/alarcon/testlpic/Puntuaciones.setListAdapter (Landroid/widget/ListAdapter;)V]
+      [52] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

@@ -1,0 +1,65 @@
+nicolas.alarcon.testlpic.AcercaDe -> nicolas.alarcon.testlpic.AcercaDe:
+    void onCreate(android.os.Bundle) -> onCreate
+nicolas.alarcon.testlpic.Apariencia -> nicolas.alarcon.testlpic.a:
+    android.app.Activity actividad -> a
+    java.util.Vector lista -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+nicolas.alarcon.testlpic.Boot -> nicolas.alarcon.testlpic.Boot:
+    nicolas.alarcon.testlpic.DbHelper bbdd -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void lanzarPuntuaciones(android.view.View) -> lanzarPuntuaciones
+    void lanzarConfiguracion(android.view.View) -> lanzarConfiguracion
+    void lanzarSalir(android.view.View) -> lanzarSalir
+    void lanzarRapidText(android.view.View) -> lanzarRapidText
+    void button2print(android.view.View) -> button2print
+    void button3print(android.view.View) -> button3print
+    void llpic1print(android.view.View) -> llpic1print
+    void llpic2print(android.view.View) -> llpic2print
+    void llpic3print(android.view.View) -> llpic3print
+nicolas.alarcon.testlpic.Configuracion -> nicolas.alarcon.testlpic.Configuracion:
+    void onCreate(android.os.Bundle) -> onCreate
+nicolas.alarcon.testlpic.DbHelper -> nicolas.alarcon.testlpic.b:
+    java.lang.String DB_PATH -> a
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+    void guardarPuntuacion(int,java.lang.String,long,int) -> a
+    java.util.Vector listaPuntuaciones(int) -> a
+    java.util.Vector listaPreguntas(int) -> b
+    void llenarBaseDeDatos(android.database.sqlite.SQLiteDatabase) -> a
+nicolas.alarcon.testlpic.PideNombre -> nicolas.alarcon.testlpic.PideNombre:
+    void onCreate(android.os.Bundle) -> onCreate
+nicolas.alarcon.testlpic.PideNombre$1 -> nicolas.alarcon.testlpic.c:
+    nicolas.alarcon.testlpic.PideNombre this$0 -> a
+    void onClick(android.view.View) -> onClick
+nicolas.alarcon.testlpic.PreguntasLpic -> nicolas.alarcon.testlpic.PreguntasLpic:
+    java.util.Vector preguntasYrespuestas -> i
+    int resultado -> j
+    int posicion -> k
+    int puntos -> a
+    int perror -> b
+    long tiempo -> c
+    int tematica -> d
+    int pregunta -> e
+    android.widget.Button bNext -> l
+    long valor1 -> m
+    long valor2 -> n
+    android.widget.TextView ok -> f
+    android.widget.TextView error -> g
+    android.widget.TextView tema -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onDestroy() -> onDestroy
+    void siguientePregunta() -> siguientePregunta
+    void listarPregunta(int) -> a
+    void devuelveCadena(android.widget.TextView,java.lang.String) -> a
+nicolas.alarcon.testlpic.PreguntasLpic$1 -> nicolas.alarcon.testlpic.d:
+    nicolas.alarcon.testlpic.PreguntasLpic this$0 -> a
+    void onClick(android.view.View) -> onClick
+nicolas.alarcon.testlpic.Puntuaciones -> nicolas.alarcon.testlpic.Puntuaciones:
+    void onCreate(android.os.Bundle) -> onCreate

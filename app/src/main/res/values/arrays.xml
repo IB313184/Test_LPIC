@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="tiposPreguntas">
+  <item>@string/textGames</item>
+  <item>@string/textAnimesAndManga</item>
+  <item>@string/textTVShows</item>
+</string-array>
+<string-array name="tiposPreguntasValores">
+  <item>1</item>
+  <item>2</item>
+  <item>3</item>
+</string-array>
+</resources>
